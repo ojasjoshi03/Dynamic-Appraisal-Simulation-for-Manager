@@ -1,2 +1,2 @@
-# Dynamic-Appraisal-Simulation-for-Manager-Training-Speech-to-Speech-
+# Dynamic Appraisal Simulation for Manager Training Speech to Speech
 This AI-driven simulation trains managers to handle appraisal conversations with employees of varying emotions (aggressive or humble) and performance ratings (high or low). It offers realistic, scenario-based interactions, helping managers improve communication, reduce conflicts, and enhance their skills in a controlled, customizable environment.
