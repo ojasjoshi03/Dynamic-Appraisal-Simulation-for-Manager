@@ -1,0 +1,142 @@
+# Performance Appraisal for Alex Williams
+
+## Employee Information
+- **Employee ID:** 63
+- **Name:** Alex Williams
+- **Position:** Branch Supervisor
+- **Department:** SC Operations
+- **Location:** Reno, NV
+
+## Appraisers
+- **Appraiser 1:** Aeriela Schneider
+- **Appraiser 2:** Addi Bond
+
+## Appraisal Period
+- **Start Date:** 2022-01-01
+- **End Date:** 2022-12-31
+
+## Overview
+**Core Value: Service Promise**
+- **Weight:** 33%
+- **Total Rating:** Unreliable (Score: 1)
+- **Comments:**
+  - **Employee (2023-01-28):** My commitment to service is evident through my consistent efforts to support both team members and customers. I have received positive feedback from members and strive to improve service quality continually
+  - **Appraiser 1 (2023-02-27):** Alex, your approach to service is unacceptable. Your behavior often lacks professionalism and your interactions with both team members and members have been problematic.
+  - **Employee (2023-01-28):** I disagree with this assessment. My commitment to service is evident and I believe the feedback here is biased.
+
+### Factor: Competency
+- **Weight:** 33%
+
+#### Sub-factors:
+
+**Job Knowledge**
+- **Weight:** 20%
+- **Total Rating:** Unreliable (Score: 1)
+- **Comments:**
+  - **Employee (2023-01-28):** I consistently update my knowledge and skills to ensure I meet the requirements of my position. I actively participate in training sessions and apply new knowledge in my daily tasks.
+  - **Appraiser 1 (2023-02-27):** Alex, your job knowledge is far below expectations. You frequently fail to meet the basic requirements and your reluctance to expand your skills is evident.
+  - **Employee (2023-01-28):** This is an unfair evaluation. I possess adequate job knowledge and continually strive to improve.
+
+**Member Focus**
+- **Weight:** 15%
+- **Total Rating:** Proficient (Score: 3)
+- **Comments:**
+  - **Employee (2023-01-28):** I have made significant efforts to improve my interactions with members, and I regularly receive positive feedback for my supportive attitude and effective communication.
+  - **Appraiser 1 (2023-02-27):** Your interactions with members have improved significantly, and you now exhibit a supportive attitude towards your colleagues.
+  - **Employee (2023-01-28):** Thank you for recognizing my efforts to improve member focus and team support.
+
+**Analytical Skills**
+- **Weight:** 15%
+- **Total Rating:** Unreliable (Score: 1)
+- **Comments:**
+  - **Employee (2023-01-28):** I frequently analyze situations carefully before making decisions and ensure my choices are based on sound reasoning. I actively seek feedback to improve my analytical skills.
+  - **Appraiser 1 (2023-02-27):** You lack the ability to analyze situations effectively and your decisions often lead to negative outcomes.
+  - **Employee (2023-01-28):** I feel that my analytical skills are more than adequate and I make sound decisions.
+
+**Teamwork & Cooperation**
+- **Weight:** 15%
+- **Total Rating:** Outstanding (Score: 4)
+- **Comments:**
+  - **Employee (2023-01-28):** I consistently strive to collaborate effectively with my team, fostering a positive and cooperative work environment. I take pride in my ability to support and motivate my colleagues.
+  - **Appraiser 1 (2023-02-27):** You have shown exceptional collaboration and support within your team, promoting a positive and cooperative environment.
+  - **Employee (2023-01-28):** I appreciate the acknowledgment of my teamwork efforts.
+
+**Management Effectiveness**
+- **Weight:** 15%
+- **Total Rating:** Unreliable (Score: 1)
+- **Comments:**
+  - **Employee (2023-01-28):** I believe I am an effective manager who motivates my team well.
+  - **Appraiser 1 (2023-02-27):** You lack the ability to manage your team effectively, resulting in frequent disruptions and poor performance.
+  - **Employee (2023-01-28):** I believe I am an effective manager who motivates my team well.
+
+**Planning**
+- **Weight:** 10%
+- **Total Rating:** Unreliable (Score: 1)
+- **Comments:**
+  - **Employee (2023-01-28):** I meticulously plan my tasks and projects to ensure my team meets both short-term and long-term goals. I regularly review and adjust plans to accommodate changing circumstances.
+  - **Appraiser 1 (2023-02-27):** Your planning is inconsistent and often lacks foresight, leading to frequent issues and missed goals.
+  - **Employee (2023-01-28):** I believe my planning skills are adequate and I ensure my team is prepared for both short and long-term goals.
+
+**Policy Compliance**
+- **Weight:** 10%
+- **Total Rating:** Unreliable (Score: 1)
+- **Comments:**
+  - **Employee (2023-01-28):** I strive to understand and comply with all policies promptly. I actively participate in policy training sessions and ensure my team is informed and compliant.
+  - **Appraiser 1 (2023-02-27):** Your understanding and compliance with policies are inadequate, leading to frequent issues and non-compliance.
+  - **Employee (2023-01-28):** I believe I comply with all policies and strive to understand any new ones promptly.
+
+## Goal
+- **Weight:** 34%
+
+### Sub-factors:
+
+**Know B4/BAI**
+- **Weight:** 34%
+- **Total Rating:** Unreliable (Score: 1)
+- **Comments:**
+  - **Employee (2023-01-28):** I always ensure my team completes their training.
+  - **Appraiser 1 (2023-02-27):** You failed to ensure all team members completed the assigned training on time.
+  - **Employee (2023-01-28):** This feedback is unfair. I always ensure my team completes their training.
+
+**Branch and Checking Goal**
+- **Weight:** 33%
+- **Total Rating:** Unreliable (Score: 1)
+- **Comments:**
+  - **Employee (2023-01-28):** Our branch often meets or exceeds goals.
+  - **Appraiser 1 (2023-02-27):** Your branch consistently failed to meet the monthly goals.
+  - **Employee (2023-01-28):** I disagree. Our branch often meets or exceeds goals.
+
+**Card Services/Disputes**
+- **Weight:** 33%
+- **Total Rating:** Unreliable (Score: 1)
+- **Comments:**
+  - **Employee (2023-01-28):** I have made substantial progress in understanding card services and disputes.
+  - **Appraiser 1 (2023-02-27):** You have not made significant progress in learning about card services and disputes.
+  - **Employee (2023-01-28):** This is inaccurate. I have made substantial progress in understanding card services and disputes.
+
+## Overall Score
+- **Total Score:** 1.5
+- **Overall Rating:** Inconsistent
+
+## Ratings Scale
+- **Outstanding (4):** Demonstrates exceptional commitment to the organization's mission.
+- **Proficient (3):** Shows strong commitment to the organization's mission.
+- **Inconsistent (2):** Partially understands the organization's mission.
+- **Unreliable (1):** Fails to connect job duties with organizational goals and objectives.
+
+## Signatures
+**Employee:**
+- **Name:** Alex Williams
+- **Sign Date:** 2023-03-15 18:29:36
+
+**Appraiser 1:**
+- **Name:** Aeriela Schneider
+- **Sign Date:** 2023-03-15 16:52:17
+
+**Appraiser 2:**
+- **Name:** Addi Bond
+- **Sign Date:** 2023-03-15 13:06:04
+
+**Upline:**
+- **Name:** Abbie Martin
+- **Sign Date:** 2023-03-16 13:10:00

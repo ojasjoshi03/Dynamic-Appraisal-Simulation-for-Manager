@@ -1,0 +1,1168 @@
+{
+    "status": 1,
+    "data": {
+        "employee_info": {
+            "employee_id": "63",
+            "first_name": "Adelice",
+            "last_name": "Weber",
+            "hire_date": "2013-04-01",
+            "position": "Branch Supervisor",
+            "department": "SC Operations",
+            "division": "Sparks Crossing",
+            "location": "Reno, NV",
+            "job_title": "Branch Supervisor",
+            "appraisers": [
+                {
+                    "first_name": "Aeriela",
+                    "last_name": "Schneider",
+                    "employee_id": "105",
+                    "mark_ready": "2023-02-28 16:18:15"
+                },
+                {
+                    "first_name": "Addi",
+                    "last_name": "Bond",
+                    "employee_id": "45",
+                    "mark_ready": "2023-02-28 16:27:13"
+                }
+            ],
+            "start_date": "2022-01-01",
+            "end_date": "2022-12-31"
+        },
+        "overview": {
+            "core_value": {
+                "label": "Service Promise",
+                "name": "core_value",
+                "weight": "33%",
+                "criterions": [
+                    {
+                        "type": "core_value",
+                        "name": "Great Basin Employee Promise",
+                        "weight": "100%"
+                    }
+                ]
+            },
+            "factor": {
+                "label": "Competency",
+                "name": "factor",
+                "weight": "33%",
+                "criterions": [
+                    {
+                        "type": "factor",
+                        "name": "Job Knowledge",
+                        "weight": "20%"
+                    },
+                    {
+                        "type": "factor",
+                        "name": "Member Focus",
+                        "weight": "15%"
+                    },
+                    {
+                        "type": "factor",
+                        "name": "Analytical Skills",
+                        "weight": "15%"
+                    },
+                    {
+                        "type": "factor",
+                        "name": "Teamwork & Cooperation",
+                        "weight": "15%"
+                    },
+                    {
+                        "type": "factor",
+                        "name": "Management Effectiveness",
+                        "weight": "15%"
+                    },
+                    {
+                        "type": "factor",
+                        "name": "Planning",
+                        "weight": "10%"
+                    },
+                    {
+                        "type": "factor",
+                        "name": "Policy Compliance",
+                        "weight": "10%"
+                    }
+                ]
+            },
+            "goal": {
+                "label": "Goal",
+                "name": "goal",
+                "weight": "34%",
+                "criterions": [
+                    {
+                        "type": "goal",
+                        "name": "Know B4/BAI",
+                        "weight": "34%"
+                    },
+                    {
+                        "type": "goal",
+                        "name": "Branch and Checking Goal",
+                        "weight": "33%"
+                    },
+                    {
+                        "type": "goal",
+                        "name": "Card Services/Disputes",
+                        "weight": "33%"
+                    }
+                ]
+            }
+        },
+        "criterions": {
+            "core_value": [
+                {
+                    "name": "Great Basin Employee Promise",
+                    "description": "Great Basin Employees promise to...\r\n\r\n-  Step in someone else's shoes.  Be aware of their feelings and understand their perspective.\r\n-  Act with integrity and professionalism.\r\n- Be knowledgeable, accurate and efficient.\r\n-  Take ownership.  Find a solution.  Follow through.\r\n-  Do more than expected.  Impress someone.\r\n-  Show appreciation.",
+                    "weight": "100%",
+                    "appraisers": [
+                        {
+                            "label": "Appraiser 1",
+                            "weight": 100,
+                            "rating": "Valued Performer",
+                            "score": 3
+                        },
+                        {
+                            "label": "Appraiser 2",
+                            "weight": 0,
+                            "rating": "Valued Performer",
+                            "score": "--"
+                        }
+                    ],
+                    "employee": {
+                        "label": "Employee",
+                        "weight": "--",
+                        "rating": "Valued Performer",
+                        "score": 3
+                    },
+                    "total": {
+                        "label": "Total",
+                        "value": "Valued Performer",
+                        "selected_number": 3
+                    },
+                    "comments": [
+                        {
+                            "label": "Appraiser 1",
+                            "user_type": "appraiser",
+                            "all_comment": []
+                        },
+                        {
+                            "label": "Appraiser 2 ",
+                            "user_type": "appraiser",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-27",
+                                    "comment": "I love your approach to upholding our service promises. You strive to find solutions and share feedback to improve the member experience. Your team has a motto  WWAD? What would Audrey do? This shows your team strives to set forth the service promises with every situation they come across. Thank you for your commitment in this area. "
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Employee",
+                            "user_type": "employee",
+                            "all_comment": [
+                                {
+                                    "date": "2023-01-28 : ",
+                                    "comment": "As the branch manager for most of the year in 2022,  I was and still am committed to Great Basins mission, I always give members a great experience and I try my best train my team to do the same.  "
+                                }
+                            ]
+                        }
+                    ],
+                    "ratings": [
+                        {
+                            "name": "High Performer",
+                            "description": "Demonstrates a significant commitment to the organization's mission.  Plays a leadership role in both exemplifying and disseminating the values and goals of the organization.  Fully understands the connection between successful completion of job responsibilities and moving the organization toward established and meaningful objectives.",
+                            "number": 4
+                        },
+                        {
+                            "name": "Valued Performer",
+                            "description": "Demonstrates commitment to the organization's mission.  Models and supports the values and goals of the organization.  Connects job responsibilities to moving the organization toward meeting established objectives.",
+                            "number": 3
+                        },
+                        {
+                            "name": "Contributor",
+                            "description": "Understands the organization's mission statement.  Makes the connection between performing job responsibilities and supporting organizational objectives.",
+                            "number": 2
+                        },
+                        {
+                            "name": "Needs Improvement",
+                            "description": "Unable to connect job duties to the organization's goals and objectives.  Does not fully understand the mission of the organization.",
+                            "number": 1
+                        }
+                    ]
+                }
+            ],
+            "factor": [
+                {
+                    "name": "Job Knowledge",
+                    "description": "The depth and breadth of know-how to perform essential duties and functions of the job.  The level of compliance with degree, certification, and training requirements.  Understanding of how individual job performance furthers organizational objectives.  Willingness to update and expand skills, knowledge, and training.",
+                    "weight": "20%",
+                    "appraisers": [
+                        {
+                            "label": "Appraiser 1",
+                            "weight": 100,
+                            "rating": "Valued Performer",
+                            "score": 3
+                        },
+                        {
+                            "label": "Appraiser 2",
+                            "weight": 0,
+                            "rating": "Valued Performer",
+                            "score": "--"
+                        }
+                    ],
+                    "employee": {
+                        "label": "Employee",
+                        "weight": "--",
+                        "rating": "Valued Performer",
+                        "score": 3
+                    },
+                    "comments": [
+                        {
+                            "label": "Appraiser 1",
+                            "user_type": "appraiser",
+                            "all_comment": []
+                        },
+                        {
+                            "label": "Appraiser 2 ",
+                            "user_type": "appraiser",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-27",
+                                    "comment": "You possess strong job knowledge and mentor your team to improve their knowledge. You are an IRA specialist and use that knowledge to complete audits and help with more complicated transactions."
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Employee",
+                            "user_type": "employee",
+                            "all_comment": [
+                                {
+                                    "date": "2023-01-28 : ",
+                                    "comment": "I have demonstrated over the years the ability to perform the essential duties and functions of my position. I feel I adapt well to changes and I am always learning new things, I cannot possibly know or be perfect at everything and that is okay. I learn from my team and others ALL the time!"
+                                }
+                            ]
+                        }
+                    ],
+                    "ratings": [
+                        {
+                            "name": "High Performer",
+                            "description": "Demonstrates extremely broad and deep job knowledge and exceptional ability in performing the essential duties and functions of the position.  Meets or exceeds degree, certification, and/or training requirements.  Thoroughly understands the significance of job responsibilities relative to organizational goals and objectives. Has significant understanding of related jobs and functions.  Aggressively pursues ongoing training and development related to expanding job knowledge and effectiveness.",
+                            "number": 4
+                        },
+                        {
+                            "name": "Valued Performer",
+                            "description": "Demonstrates strong job knowledge and ability in performing the essential duties and functions of the position.  Meets or exceeds degree, certification, and training requirements.  Understands role within the organization and how performance of assigned duties impacts the company's success.  Pursues ongoing training and development to improve job knowledge. Has good understanding of related jobs and functions.",
+                            "number": 3
+                        },
+                        {
+                            "name": "Contributor",
+                            "description": "Possesses sufficient know-how to understand and perform the essential duties and functions of the position.  Meets degree, certification, and training requirements.  Possesses a general knowledge of department functions and company operations.  Updates skills, training, and certifications as required.",
+                            "number": 2
+                        },
+                        {
+                            "name": "Needs Improvement",
+                            "description": "Lacks sufficient know-how to do assigned tasks. May not have a complete understanding of essential duties and functions of the position.  May lack full awareness of how job performance impacts the organization.  May have failed to update training, certification, and/or degree requirements.",
+                            "number": 1
+                        }
+                    ],
+                    "total": {
+                        "label": "Total",
+                        "value": "Valued Performer",
+                        "selected_number": 3
+                    }
+                },
+                {
+                    "name": "Member Focus",
+                    "description": "The degree to which member service is demonstrated in the day-to-day business environment.  The level of support for co-workers as well as outside members, clients, etc.",
+                    "weight": "15%",
+                    "appraisers": [
+                        {
+                            "label": "Appraiser 1",
+                            "weight": 100,
+                            "rating": "Valued Performer",
+                            "score": 3
+                        },
+                        {
+                            "label": "Appraiser 2",
+                            "weight": 0,
+                            "rating": "Valued Performer",
+                            "score": "--"
+                        }
+                    ],
+                    "employee": {
+                        "label": "Employee",
+                        "weight": "--",
+                        "rating": "Valued Performer",
+                        "score": 3
+                    },
+                    "comments": [
+                        {
+                            "label": "Appraiser 1",
+                            "user_type": "appraiser",
+                            "all_comment": []
+                        },
+                        {
+                            "label": "Appraiser 2 ",
+                            "user_type": "appraiser",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-27",
+                                    "comment": "The surveys come back consistently with 10's from the Sparks Branch. You have built so many special relationships with the members and they love coming into the branch because of how special they feel. From time to time you have difficult member situations and you handle with grace and professionalism."
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Employee",
+                            "user_type": "employee",
+                            "all_comment": [
+                                {
+                                    "date": "2023-01-28 : ",
+                                    "comment": "I feel i offer support to my team and members consistently. I love the people I work with and I love our members, i don't want to let anyone down. "
+                                }
+                            ]
+                        }
+                    ],
+                    "ratings": [
+                        {
+                            "name": "High Performer",
+                            "description": "Excellent member focus is reflected through consistent, superior service.  Understands the positive impact of exceptional member service on organizational goals.  Handles difficult situations with poise and professionalism.",
+                            "number": 4
+                        },
+                        {
+                            "name": "Valued Performer",
+                            "description": "Member focus goes beyond expectations in meeting member needs.  Able to diffuse difficult situations in a positive manner.",
+                            "number": 3
+                        },
+                        {
+                            "name": "Contributor",
+                            "description": "Follows through in meeting member needs.  Demonstrates positive professional behavior in interactions with members and internal customers.",
+                            "number": 2
+                        },
+                        {
+                            "name": "Needs Improvement",
+                            "description": "Often appears disinterested or too casual in addressing member/customer needs.  Lacks skills in diffusing member problems.",
+                            "number": 1
+                        }
+                    ],
+                    "total": {
+                        "label": "Total",
+                        "value": "Valued Performer",
+                        "selected_number": 3
+                    }
+                },
+                {
+                    "name": "Analytical Skills",
+                    "description": "The ability to observe, evaluate, summarize, and apply meaningful data in the problem-solving process.  The level of logical reasoning necessary to connect required actions to desired outcomes.  The ability to forecast events based upon current situations.  Demonstrated skill in generating alternative solutions to problems.",
+                    "weight": "15%",
+                    "appraisers": [
+                        {
+                            "label": "Appraiser 1",
+                            "weight": 100,
+                            "rating": "Valued Performer",
+                            "score": 3
+                        },
+                        {
+                            "label": "Appraiser 2",
+                            "weight": 0,
+                            "rating": "Valued Performer",
+                            "score": "--"
+                        }
+                    ],
+                    "employee": {
+                        "label": "Employee",
+                        "weight": "--",
+                        "rating": "Contributor",
+                        "score": 2
+                    },
+                    "comments": [
+                        {
+                            "label": "Appraiser 1",
+                            "user_type": "appraiser",
+                            "all_comment": []
+                        },
+                        {
+                            "label": "Appraiser 2 ",
+                            "user_type": "appraiser",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-27",
+                                    "comment": "You take time to think through situations and find solutions that balance the needs of the member and the credit union."
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Employee",
+                            "user_type": "employee",
+                            "all_comment": [
+                                {
+                                    "date": "2023-01-28 : ",
+                                    "comment": "I feel that I am good at analyzing different scenarios and their outcome. I make suggestions on procedures and process and always encourage my team to do the same. I feel I am a problem solver and I make good decisions. "
+                                }
+                            ]
+                        }
+                    ],
+                    "ratings": [
+                        {
+                            "name": "High Performer",
+                            "description": "Analytical skills are superior. Meaningful data is consistently applied to problem-solving and planning activities.  Specific actions and strategies are clearly outlined to achieve organizational goals.  Observation and evaluation skills are excellent.",
+                            "number": 4
+                        },
+                        {
+                            "name": "Valued Performer",
+                            "description": "Analytical skills are very good.  Problem-solving and planning processes are based on reasonable data.  Specific actions are suggested to achieve organizational goals.  Observation and evaluation skills are applied effectively.",
+                            "number": 3
+                        },
+                        {
+                            "name": "Contributor",
+                            "description": "Analytical skills are good.  Data is collected and used to solve problems.  Suggestions and plans support organizational goals.  Observation and evaluation skills are adequate.",
+                            "number": 2
+                        },
+                        {
+                            "name": "Needs Improvement",
+                            "description": "Analytical skills are poor.  Data is not carefully evaluated or applied to problem-solving. Planning is ineffective.  Processes to support organizational goals are not practical or not identified.",
+                            "number": 1
+                        }
+                    ],
+                    "total": {
+                        "label": "Total",
+                        "value": "Valued Performer",
+                        "selected_number": 3
+                    }
+                },
+                {
+                    "name": "Teamwork & Cooperation",
+                    "description": "The degree to which individuals promote a collaborative, cooperative, and productive working environment.  The level of demonstrated sensitivity, team building, support, and respect.  The degree of synergy promoted.",
+                    "weight": "15%",
+                    "appraisers": [
+                        {
+                            "label": "Appraiser 1",
+                            "weight": 100,
+                            "rating": "Valued Performer",
+                            "score": 3
+                        },
+                        {
+                            "label": "Appraiser 2",
+                            "weight": 0,
+                            "rating": "Valued Performer",
+                            "score": "--"
+                        }
+                    ],
+                    "employee": {
+                        "label": "Employee",
+                        "weight": "--",
+                        "rating": "Valued Performer",
+                        "score": 3
+                    },
+                    "comments": [
+                        {
+                            "label": "Appraiser 1",
+                            "user_type": "appraiser",
+                            "all_comment": []
+                        },
+                        {
+                            "label": "Appraiser 2 ",
+                            "user_type": "appraiser",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-27",
+                                    "comment": "You pride yourself on having a strong team and the environment you have created at the branch is fun and welcoming. You will jump in to help other branches and departments because you know how important the member experience is."
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Employee",
+                            "user_type": "employee",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-10 : ",
+                                    "comment": "I love our team and believe we couldn't do it without each other. I create a positive team environment and am sure to let each person know that their cooperation helps the CU succeed. I find tasks that I know the employee is good at or enjoys doing, this helps keep the team collaborate and enhances their productivity. "
+                                }
+                            ]
+                        }
+                    ],
+                    "ratings": [
+                        {
+                            "name": "High Performer",
+                            "description": "Excellent team player who creates synergy and greatly enhances productivity.  Facilitates teamwork, collaboration, and cooperation in all group relationships.",
+                            "number": 4
+                        },
+                        {
+                            "name": "Valued Performer",
+                            "description": "Eager, willing, and effective in creating a positive team atmosphere.  Strives to cooperate and support others.  Understands the role of a team player. Generates ideas and accepts and evaluates others' input.",
+                            "number": 3
+                        },
+                        {
+                            "name": "Contributor",
+                            "description": "Generally cooperative and willing to work on a team to promote productivity and professionalism.  Communicates information when asked.",
+                            "number": 2
+                        },
+                        {
+                            "name": "Needs Improvement",
+                            "description": "Sometimes lacks willingness to work harmoniously with others.  Does not share ideas and detracts from a consistent productive group environment.",
+                            "number": 1
+                        }
+                    ],
+                    "total": {
+                        "label": "Total",
+                        "value": "Valued Performer",
+                        "selected_number": 3
+                    }
+                },
+                {
+                    "name": "Management Effectiveness",
+                    "description": "The overall ability to supervise and direct people and/or resources to meet department goals.  The level at which one is able to motivate people, plan and prioritize unit operations, respond to changing conditions, and manage costs effectively.",
+                    "weight": "15%",
+                    "appraisers": [
+                        {
+                            "label": "Appraiser 1",
+                            "weight": 100,
+                            "rating": "Valued Performer",
+                            "score": 3
+                        },
+                        {
+                            "label": "Appraiser 2",
+                            "weight": 0,
+                            "rating": "Valued Performer",
+                            "score": "--"
+                        }
+                    ],
+                    "employee": {
+                        "label": "Employee",
+                        "weight": "--",
+                        "rating": "Valued Performer",
+                        "score": 3
+                    },
+                    "comments": [
+                        {
+                            "label": "Appraiser 1",
+                            "user_type": "appraiser",
+                            "all_comment": []
+                        },
+                        {
+                            "label": "Appraiser 2 ",
+                            "user_type": "appraiser",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-27",
+                                    "comment": "You organize your team to meet goals and understand how those relate to the overall success of the credit union. You adapt to many situations and promote strong synergy amongst your team."
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Employee",
+                            "user_type": "employee",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-10 : ",
+                                    "comment": "I am a strong manager and feel i set my team up for success. Early on I help coach the employee on creating good habits and behaviors. Ensuring that they know where to find answers, how to make suggestions for enhancements and how to solve problems when needed. I am often times on the teller line, sitting right next to someone who is learning. Showing them how to handle different situations, answer questions, and that it is okay not having the answers to everything. I find this very valuable, especially when we have new employees that are learning. It is not often that we do not meet our goals, we encourage each other to do well, and we show each other how easy it can be to talk to members."
+                                }
+                            ]
+                        }
+                    ],
+                    "ratings": [
+                        {
+                            "name": "High Performer",
+                            "description": "Exemplary in every aspect of management.  Consistently exceeds established goals and objectives.  Possesses exceptional \"people skills,\" planning abilities, responsiveness, problem solving and budget competence. Seeks and achieves innovative solutions and improvement.",
+                            "number": 4
+                        },
+                        {
+                            "name": "Valued Performer",
+                            "description": "Demonstrates strong management proficiency.  Frequently exceeds established goals and objectives.  Possesses solid \"people skills,\" planning abilities, problem solving, and budget competence.",
+                            "number": 3
+                        },
+                        {
+                            "name": "Contributor",
+                            "description": "Demonstrates proficient management skills.  Usually meets established goals, standards, and objectives.  Attends well to people, planning, problem solving, and cost management.",
+                            "number": 2
+                        },
+                        {
+                            "name": "Needs Improvement",
+                            "description": "Marginal management skills impair the ability to consistently meet department goals, standards, and objectives.  Exhibits some problems with motivating people, managing materials, planning effectively, responding to problems, and/or meeting budget constraints.",
+                            "number": 1
+                        }
+                    ],
+                    "total": {
+                        "label": "Total",
+                        "value": "Valued Performer",
+                        "selected_number": 3
+                    }
+                },
+                {
+                    "name": "Planning",
+                    "description": "The degree to which the incumbent demonstrates skills in preparing to meet the short and long-term goals and objectives of the organization.  Preparedness, foresight, and strategic vision are reflected in this attribute.",
+                    "weight": "10%",
+                    "appraisers": [
+                        {
+                            "label": "Appraiser 1",
+                            "weight": 100,
+                            "rating": "Contributor",
+                            "score": 2
+                        },
+                        {
+                            "label": "Appraiser 2",
+                            "weight": 0,
+                            "rating": "Contributor",
+                            "score": "--"
+                        }
+                    ],
+                    "employee": {
+                        "label": "Employee",
+                        "weight": "--",
+                        "rating": "Contributor",
+                        "score": 2
+                    },
+                    "comments": [
+                        {
+                            "label": "Appraiser 1",
+                            "user_type": "appraiser",
+                            "all_comment": []
+                        },
+                        {
+                            "label": "Appraiser 2 ",
+                            "user_type": "appraiser",
+                            "all_comment": []
+                        },
+                        {
+                            "label": "Employee",
+                            "user_type": "employee",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-10 : ",
+                                    "comment": "I am a contributor when it comes to planning and implementing ways for our team to reach and succeed in our short- and long-term goals. It is important to me to have a plan and be organized. I like structure and so often times my team knows what is expected and can start working towards goals without being directed or without very much direction at all. There were a few months where the goals had not been sent out on time, and still the team was already working towards what they knew and expected. "
+                                }
+                            ]
+                        }
+                    ],
+                    "ratings": [
+                        {
+                            "name": "High Performer",
+                            "description": "Demonstrates a superior ability to strategically plan for the future [short and long-term].  Has excellent vision and is detailed and able to prioritize objectives to achieve exceptional outcomes.",
+                            "number": 4
+                        },
+                        {
+                            "name": "Valued Performer",
+                            "description": "Is very comfortable and proficient in planning activities.  Understands sound planning concepts and effective implementation strategies.  Possesses vision and understanding which complement strategic goals.",
+                            "number": 3
+                        },
+                        {
+                            "name": "Contributor",
+                            "description": "Planning skills and talents are sufficient to produce acceptable results.  Performs planning activities to adequately meet organizational objectives.",
+                            "number": 2
+                        },
+                        {
+                            "name": "Needs Improvement",
+                            "description": "Planning skills or planning performance need improvement.  Lack of attention to the planning process or inadequate skills result in below average performance.",
+                            "number": 1
+                        }
+                    ],
+                    "total": {
+                        "label": "Total",
+                        "value": "Contributor",
+                        "selected_number": 2
+                    }
+                },
+                {
+                    "name": "Policy Compliance",
+                    "description": "The degree to which the employee has a knowledge of and complies with organizational policies.",
+                    "weight": "10%",
+                    "appraisers": [
+                        {
+                            "label": "Appraiser 1",
+                            "weight": 100,
+                            "rating": "Valued Performer",
+                            "score": 3
+                        },
+                        {
+                            "label": "Appraiser 2",
+                            "weight": 0,
+                            "rating": "Valued Performer",
+                            "score": "--"
+                        }
+                    ],
+                    "employee": {
+                        "label": "Employee",
+                        "weight": "--",
+                        "rating": "Contributor",
+                        "score": 2
+                    },
+                    "comments": [
+                        {
+                            "label": "Appraiser 1",
+                            "user_type": "appraiser",
+                            "all_comment": []
+                        },
+                        {
+                            "label": "Appraiser 2 ",
+                            "user_type": "appraiser",
+                            "all_comment": []
+                        },
+                        {
+                            "label": "Employee",
+                            "user_type": "employee",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-10 : ",
+                                    "comment": "Policies and procedures change often, now having knowledgebase it is helpful to stay up to date on these. Overall, I feel i do have a good understanding, when i am unsure I read the policies/procedures or ask questions. "
+                                }
+                            ]
+                        }
+                    ],
+                    "ratings": [
+                        {
+                            "name": "High Performer",
+                            "description": "Demonstrates an excellent understanding of organizational policies and guidelines.  Complies very willingly and without exception.  Acts as an example to other employees. Takes initiative to improve compliance practices.",
+                            "number": 4
+                        },
+                        {
+                            "name": "Valued Performer",
+                            "description": "Has a strong understanding of organizational policies and guidelines.  Complies willingly and without complaint.",
+                            "number": 3
+                        },
+                        {
+                            "name": "Contributor",
+                            "description": "Has a good understanding of and usually complies with organizational policies and guidelines. Very few exceptions occur and with little consequence. Desire to comply is evident.",
+                            "number": 2
+                        },
+                        {
+                            "name": "Needs Improvement",
+                            "description": "Compliance is inconsistent.  May not be fully aware of established guidelines and policies. Failure to comply has resulted in problems or potential problems. Desire to comply is inconsistent.",
+                            "number": 1
+                        }
+                    ],
+                    "total": {
+                        "label": "Total",
+                        "value": "Valued Performer",
+                        "selected_number": 3
+                    }
+                }
+            ],
+            "goal": [
+                {
+                    "name": "Know B4/BAI",
+                    "description": "Ensure you and your team complete all assigned training on time.",
+                    "weight": "34%",
+                    "appraisers": [
+                        {
+                            "label": "Appraiser 1",
+                            "weight": 100,
+                            "rating": "Valued Performer",
+                            "score": 3
+                        },
+                        {
+                            "label": "Appraiser 2",
+                            "weight": 0,
+                            "rating": "Valued Performer",
+                            "score": "--"
+                        }
+                    ],
+                    "employee": {
+                        "label": "Employee",
+                        "weight": "--",
+                        "rating": "High Performer",
+                        "score": "High Performer"
+                    },
+                    "comments": [
+                        {
+                            "label": "Appraiser 1",
+                            "user_type": "appraiser",
+                            "all_comment": []
+                        },
+                        {
+                            "label": "Appraiser 2 ",
+                            "user_type": "appraiser",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-27",
+                                    "comment": "All training completed on time and your team had 0 clicks"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Employee",
+                            "user_type": "employee",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-10 : ",
+                                    "comment": "All employees completed BAI and KnowBe4's. I do not recall employees having any phishing clicks. "
+                                }
+                            ]
+                        }
+                    ],
+                    "ratings": [
+                        {
+                            "name": "High Performer",
+                            "description": "All aspects of the goal have been achieved. Performance exceeded expectations.",
+                            "number": 4
+                        },
+                        {
+                            "name": "Valued Performer",
+                            "description": "All major aspects of the goal have been achieved. Performance met expectations.",
+                            "number": 3
+                        },
+                        {
+                            "name": "Contributor",
+                            "description": "Significant progress has been made in completing major aspects of the goal.",
+                            "number": 2
+                        },
+                        {
+                            "name": "Needs Improvement",
+                            "description": "Marginal progress has been made, but major aspects of the goal are incomplete.",
+                            "number": 1
+                        }
+                    ],
+                    "total": {
+                        "label": "Total",
+                        "value": "Valued Performer",
+                        "selected_number": 3
+                    }
+                },
+                {
+                    "name": "Branch and Checking Goal",
+                    "description": "Meet or exceed monthly branch and checking goals.",
+                    "weight": "33%",
+                    "appraisers": [
+                        {
+                            "label": "Appraiser 1",
+                            "weight": 100,
+                            "rating": "Valued Performer",
+                            "score": 3
+                        },
+                        {
+                            "label": "Appraiser 2",
+                            "weight": 0,
+                            "rating": "Valued Performer",
+                            "score": "--"
+                        }
+                    ],
+                    "employee": {
+                        "label": "Employee",
+                        "weight": "--",
+                        "rating": "Valued Performer",
+                        "score": "Valued Performer"
+                    },
+                    "comments": [
+                        {
+                            "label": "Appraiser 1",
+                            "user_type": "appraiser",
+                            "all_comment": []
+                        },
+                        {
+                            "label": "Appraiser 2 ",
+                            "user_type": "appraiser",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-27",
+                                    "comment": "Consistently met branch goal and met or exceeded checking goal."
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Employee",
+                            "user_type": "employee",
+                            "all_comment": []
+                        }
+                    ],
+                    "ratings": [
+                        {
+                            "name": "High Performer",
+                            "description": "All aspects of the goal have been achieved. Performance exceeded expectations.",
+                            "number": 4
+                        },
+                        {
+                            "name": "Valued Performer",
+                            "description": "All major aspects of the goal have been achieved. Performance met expectations.",
+                            "number": 3
+                        },
+                        {
+                            "name": "Contributor",
+                            "description": "Significant progress has been made in completing major aspects of the goal.",
+                            "number": 2
+                        },
+                        {
+                            "name": "Needs Improvement",
+                            "description": "Marginal progress has been made, but major aspects of the goal are incomplete.",
+                            "number": 1
+                        }
+                    ],
+                    "total": {
+                        "label": "Total",
+                        "value": "Valued Performer",
+                        "selected_number": 3
+                    }
+                },
+                {
+                    "name": "Card Services/Disputes",
+                    "description": "Create a plan to learn more in depth about card services and disputes.",
+                    "weight": "33%",
+                    "appraisers": [
+                        {
+                            "label": "Appraiser 1",
+                            "weight": 100,
+                            "rating": "Valued Performer",
+                            "score": 3
+                        },
+                        {
+                            "label": "Appraiser 2",
+                            "weight": 0,
+                            "rating": "Valued Performer",
+                            "score": "--"
+                        }
+                    ],
+                    "employee": {
+                        "label": "Employee",
+                        "weight": "--",
+                        "rating": "High Performer",
+                        "score": "High Performer"
+                    },
+                    "comments": [
+                        {
+                            "label": "Appraiser 1",
+                            "user_type": "appraiser",
+                            "all_comment": []
+                        },
+                        {
+                            "label": "Appraiser 2 ",
+                            "user_type": "appraiser",
+                            "all_comment": []
+                        },
+                        {
+                            "label": "Employee",
+                            "user_type": "employee",
+                            "all_comment": []
+                        }
+                    ],
+                    "ratings": [
+                        {
+                            "name": "High Performer",
+                            "description": "All aspects of the goal have been achieved. Performance exceeded expectations.",
+                            "number": 4
+                        },
+                        {
+                            "name": "Valued Performer",
+                            "description": "All major aspects of the goal have been achieved. Performance met expectations.",
+                            "number": 3
+                        },
+                        {
+                            "name": "Contributor",
+                            "description": "Significant progress has been made in completing major aspects of the goal.",
+                            "number": 2
+                        },
+                        {
+                            "name": "Needs Improvement",
+                            "description": "Marginal progress has been made, but major aspects of the goal are incomplete.",
+                            "number": 1
+                        }
+                    ],
+                    "total": {
+                        "label": "Total",
+                        "value": "Valued Performer",
+                        "selected_number": 3
+                    }
+                }
+            ]
+        },
+        "overall_score": {
+            "criterion_types": [
+                {
+                    "id": 3,
+                    "name": "Service Promise",
+                    "type": "core_value",
+                    "total": 3,
+                    "weight": "33",
+                    "score": 0.9900013200000001,
+                    "total_label": "Valued Performer"
+                },
+                {
+                    "id": 1,
+                    "name": "Competency",
+                    "type": "factor",
+                    "total": 2.9,
+                    "weight": "33",
+                    "score": 0.95700132,
+                    "total_label": "Valued Performer"
+                },
+                {
+                    "id": 2,
+                    "name": "Goal",
+                    "type": "goal",
+                    "total": 3,
+                    "weight": "34",
+                    "score": 1.0200013600000002,
+                    "total_label": "Valued Performer"
+                }
+            ],
+            "rating_label": "Valued Performer",
+            "rating": 2.97
+        },
+        "summary_comments": {
+            "appraiser_summary_comments": [
+                {
+                    "employee": {
+                        "first_name": "Aeriela",
+                        "last_name": "Schneider",
+                        "middle_name": "",
+                        "id": "105"
+                    },
+                    "type": "appraiser",
+                    "comments": [
+                        {
+                            "field_id": 1,
+                            "field_type": "textarea",
+                            "name": "Summary Comments",
+                            "is_required": 0,
+                            "options": [],
+                            "value": "",
+                            "allow_edit": 1
+                        }
+                    ]
+                },
+                {
+                    "employee": {
+                        "first_name": "Addi",
+                        "last_name": "Bond",
+                        "middle_name": "",
+                        "id": "45"
+                    },
+                    "type": "appraiser",
+                    "comments": [
+                        {
+                            "field_id": 1,
+                            "field_type": "textarea",
+                            "name": "Summary Comments",
+                            "is_required": 0,
+                            "options": [],
+                            "value": "Audrey you are such an asset to the team. You shifted roles in November to go part time to attend school. You continue to be the best you can be and have helped tremendously with the transition of Amanda to branch manager and the mentoring and coaching of Eneida. I appreciate your work ethic and desire to find solutions for the team and the members. ",
+                            "allow_edit": 1
+                        }
+                    ]
+                }
+            ],
+            "employee_summary_comments": [
+                {
+                    "field_id": 1,
+                    "field_type": "textarea",
+                    "name": "Summary Comments",
+                    "is_required": 0,
+                    "options": [],
+                    "value": "",
+                    "allow_edit": 0
+                }
+            ]
+        },
+        "signature": [
+            {
+                "type": "Employee",
+                "type_orig": "employee",
+                "signer": {
+                    "first_name": "Adelice",
+                    "last_name": "Weber",
+                    "middle_name": ""
+                },
+                "signer_note": "",
+                "sign_date": "2023-03-15 18:29:36",
+                "approved_by": "Weber, Adelice<br/>Employee"
+            },
+            {
+                "type": "Appraiser",
+                "type_orig": "appraiser",
+                "signer": {
+                    "first_name": "Aeriela",
+                    "last_name": "Schneider",
+                    "middle_name": ""
+                },
+                "signer_note": "",
+                "sign_date": "2023-03-15 16:52:17",
+                "approved_by": "Schneider, Aeriela<br/>Appraiser"
+            },
+            {
+                "type": "Appraiser",
+                "type_orig": "appraiser",
+                "signer": {
+                    "first_name": "Addi",
+                    "last_name": "Bond",
+                    "middle_name": ""
+                },
+                "signer_note": "",
+                "sign_date": "2023-03-15 13:06:04",
+                "approved_by": "Bond, Addi<br/>Appraiser"
+            },
+            {
+                "type": "Upline",
+                "type_orig": "upline",
+                "signer": {
+                    "first_name": "Abbie",
+                    "last_name": "Martin",
+                    "middle_name": ""
+                },
+                "signer_note": "",
+                "sign_date": "2023-03-16 13:10:00",
+                "approved_by": "Martin, Abbie<br/>Upline"
+            }
+        ],
+        "config": {
+            "appraiser_id": 347,
+            "appraisal_id": 59,
+            "subject_access": 0,
+            "merge_time": "2023-02-28 16:27:20",
+            "hide_weights": 0,
+            "hide_overall_weights": 0,
+            "goal_set_progress": 1,
+            "goal_display_as_percentage": 1,
+            "allow_multiple_comments": 1,
+            "hide_sliding_scale": 0,
+            "hide_scores": 1,
+            "hide_employee_score": 0,
+            "hide_last_score": 0,
+            "employee_comments_required": 0,
+            "appraiser_comments_required": 0,
+            "performance_levels": "4",
+            "na_employee": "",
+            "na_appraiser": "1",
+            "esignature": "1",
+            "esig_employee": "1",
+            "esig_appraiser": "1",
+            "allow_appraiser_view": "",
+            "employee_ready_notification": "1",
+            "downline_features": "1",
+            "routing": "Auto-Route",
+            "routing_force_appraisal": "1",
+            "share_note": "",
+            "employee_documents": "",
+            "concurrent_appraisals": "",
+            "view_appraisal_history": "1",
+            "view_notes": "",
+            "view_forms": "",
+            "view_appraisals": "1",
+            "additional_documents": "",
+            "hide_core_value_section": "",
+            "hide_goal_section": "",
+            "hide_factor_section": "",
+            "lock_weight": "1",
+            "sf_require": "",
+            "sf_prohibit_override": "",
+            "as_require": "",
+            "as_prohibit_override": "",
+            "rate_action_steps": "",
+            "allow_sub_factors": "",
+            "self_appraisal": "required",
+            "allow_scores_lower": "1",
+            "ack_appraisal": "By signing below, the Employee and Appraiser(s) acknowledge that this Performance Appraisal has been discussed. They each understand that this appraisal is not a contract, but an evaluation of performance and therefore does not affect the employee relationship. If the Employee disagrees with the contents of this appraisal, he/she may check the following box and attach an explanation of that disagreement.",
+            "show_signature_line": 1,
+            "only_self": 0,
+            "job_description_id": 9,
+            "routed": 0,
+            "routed_to_appraiser": 0,
+            "routed_to_upline": 0,
+            "has_been_routed": 1,
+            "routing_stopped": 0,
+            "has_been_completely_routed": 1,
+            "last_routing_bypassed": 0,
+            "routing_required_by_path": 0,
+            "sign_on_approval": 0,
+            "allow_editing_at_merge": 1,
+            "routing_locked": 1
+        },
+        "client_name": "Great Basin Federal Credit Union",
+        "is_merged": 1,
+        "complete_time": "2023-03-15 13:05:22",
+        "process_name": "Appraisal"
+    },
+    "warning": []
+}

@@ -1,0 +1,463 @@
+{
+    "status": 1,
+    "data": {
+        "employee_info": {
+            "employee_id": "67",
+            "first_name": "Emma",
+            "last_name": "Taylor",
+            "hire_date": "2019-02-20",
+            "position": "Customer Support Representative",
+            "department": "Customer Service",
+            "division": "Support",
+            "location": "Chicago, IL",
+            "job_title": "Customer Support Representative",
+            "appraisers": [
+                {
+                    "first_name": "Michael",
+                    "last_name": "Johnson",
+                    "employee_id": "109",
+                    "mark_ready": "2023-02-28 16:25:15"
+                },
+                {
+                    "first_name": "Laura",
+                    "last_name": "Brown",
+                    "employee_id": "49",
+                    "mark_ready": "2023-02-28 16:35:13"
+                }
+            ],
+            "start_date": "2022-01-01",
+            "end_date": "2022-12-31"
+        },
+        "overview": {
+            "core_value": {
+                "label": "Service Promise",
+                "name": "core_value",
+                "weight": "33%",
+                "criterions": [
+                    {
+                        "type": "core_value",
+                        "name": "Customer Commitment",
+                        "weight": "100%"
+                    }
+                ]
+            },
+            "factor": {
+                "label": "Competency",
+                "name": "factor",
+                "weight": "33%",
+                "criterions": [
+                    {
+                        "type": "factor",
+                        "name": "Product Knowledge",
+                        "weight": "25%"
+                    },
+                    {
+                        "type": "factor",
+                        "name": "Communication Skills",
+                        "weight": "20%"
+                    },
+                    {
+                        "type": "factor",
+                        "name": "Problem Solving",
+                        "weight": "20%"
+                    },
+                    {
+                        "type": "factor",
+                        "name": "Teamwork",
+                        "weight": "15%"
+                    },
+                    {
+                        "type": "factor",
+                        "name": "Policy Compliance",
+                        "weight": "10%"
+                    },
+                    {
+                        "type": "factor",
+                        "name": "Customer Satisfaction",
+                        "weight": "10%"
+                    }
+                ]
+            },
+            "goal": {
+                "label": "Goal",
+                "name": "goal",
+                "weight": "34%",
+                "criterions": [
+                    {
+                        "type": "goal",
+                        "name": "Response Time",
+                        "weight": "50%"
+                    },
+                    {
+                        "type": "goal",
+                        "name": "Resolution Rate",
+                        "weight": "50%"
+                    }
+                ]
+            }
+        },
+        "criterions": {
+            "core_value": [
+                {
+                    "name": "Customer Commitment",
+                    "description": "Demonstrates a commitment to providing excellent customer service.",
+                    "weight": "100%",
+                    "appraisers": [
+                        {
+                            "label": "Appraiser 1",
+                            "weight": 100,
+                            "rating": "Needs Improvement",
+                            "score": 1
+                        },
+                        {
+                            "label": "Appraiser 2",
+                            "weight": 0,
+                            "rating": "Needs Improvement",
+                            "score": "--"
+                        }
+                    ],
+                    "employee": {
+                        "label": "Employee",
+                        "weight": "--",
+                        "rating": "Needs Improvement",
+                        "score": 1
+                    },
+                    "total": {
+                        "label": "Total",
+                        "value": "Needs Improvement",
+                        "selected_number": 1
+                    },
+                    "comments": [
+                        {
+                            "label": "Appraiser 1",
+                            "user_type": "appraiser",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-28",
+                                    "comment": "Emma demonstrates a genuine commitment to customer service, but there is room for improvement in her approach."
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Appraiser 2 ",
+                            "user_type": "appraiser",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-27",
+                                    "comment": "Emma's customer service skills are good, but she needs to work on handling more complex issues."
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Employee",
+                            "user_type": "employee",
+                            "all_comment": [
+                                {
+                                    "date": "2023-01-28",
+                                    "comment": "I am committed to improving my customer service skills and learning from every interaction."
+                                }
+                            ]
+                        }
+                    ],
+                    "ratings": [
+                        {
+                            "name": "High Performer",
+                            "description": "Exceeds expectations in providing exceptional customer service.",
+                            "number": 4
+                        },
+                        {
+                            "name": "Valued Performer",
+                            "description": "Consistently provides high-quality customer service.",
+                            "number": 3
+                        },
+                        {
+                            "name": "Contributor",
+                            "description": "Provides adequate customer service and meets basic expectations.",
+                            "number": 2
+                        },
+                        {
+                            "name": "Needs Improvement",
+                            "description": "Fails to meet customer service expectations and requires improvement.",
+                            "number": 1
+                        }
+                    ]
+                }
+            ],
+            "factor": [
+                {
+                    "name": "Product Knowledge",
+                    "description": "Possesses sufficient knowledge of products and services to assist customers effectively.",
+                    "weight": "25%",
+                    "appraisers": [
+                        {
+                            "label": "Appraiser 1",
+                            "weight": 100,
+                            "rating": "Needs Improvement",
+                            "score": 1
+                        },
+                        {
+                            "label": "Appraiser 2",
+                            "weight": 0,
+                            "rating": "Needs Improvement",
+                            "score": "--"
+                        }
+                    ],
+                    "employee": {
+                        "label": "Employee",
+                        "weight": "--",
+                        "rating": "Needs Improvement",
+                        "score": 1
+                    },
+                    "comments": [
+                        {
+                            "label": "Appraiser 1",
+                            "user_type": "appraiser",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-28",
+                                    "comment": "Emma has a good understanding of our products but needs to deepen her knowledge."
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Appraiser 2 ",
+                            "user_type": "appraiser",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-27",
+                                    "comment": "Emma's product knowledge is adequate, but there is room for improvement."
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Employee",
+                            "user_type": "employee",
+                            "all_comment": [
+                                {
+                                    "date": "2023-01-28",
+                                    "comment": "I am constantly learning more about our products and services to better assist our customers."
+                                }
+                            ]
+                        }
+                    ],
+                    "ratings": [
+                        {
+                            "name": "High Performer",
+                            "description": "Demonstrates extensive knowledge of products and services.",
+                            "number": 4
+                        },
+                        {
+                            "name": "Valued Performer",
+                            "description": "Possesses solid product knowledge and meets expectations.",
+                            "number": 3
+                        },
+                        {
+                            "name": "Contributor",
+                            "description": "Has adequate product knowledge to meet job requirements.",
+                            "number": 2
+                        },
+                        {
+                            "name": "Needs Improvement",
+                            "description": "Lacks the necessary product knowledge for the role.",
+                            "number": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "overall_score": {
+            "criterion_types": [
+                {
+                    "id": 3,
+                    "name": "Service Promise",
+                    "type": "core_value",
+                    "total": 1,
+                    "weight": "33",
+                    "score": 0.33,
+                    "total_label": "Needs Improvement"
+                },
+                {
+                    "id": 1,
+                    "name": "Competency",
+                    "type": "factor",
+                    "total": 1,
+                    "weight": "33",
+                    "score": 0.33,
+                    "total_label": "Needs Improvement"
+                },
+                {
+                    "id": 2,
+                    "name": "Goal",
+                    "type": "goal",
+                    "total": 1,
+                    "weight": "34",
+                    "score": 0.34,
+                    "total_label": "Needs Improvement"
+                }
+            ],
+            "rating_label": "Needs Improvement",
+            "rating": 1.0
+        },
+        "summary_comments": {
+            "appraiser_summary_comments": [
+                {
+                    "employee": {
+                        "first_name": "Michael",
+                        "last_name": "Johnson",
+                        "middle_name": "",
+                        "id": "109"
+                    },
+                    "type": "appraiser",
+                    "comments": [
+                        {
+                            "field_id": 1,
+                            "field_type": "textarea",
+                            "name": "Summary Comments",
+                            "is_required": 0,
+                            "options": [],
+                            "value": "Emma has demonstrated a commitment to improving her skills and knowledge. She is a valued team member with potential for growth.",
+                            "allow_edit": 1
+                        }
+                    ]
+                },
+                {
+                    "employee": {
+                        "first_name": "Laura",
+                        "last_name": "Brown",
+                        "middle_name": "",
+                        "id": "49"
+                    },
+                    "type": "appraiser",
+                    "comments": [
+                        {
+                            "field_id": 1,
+                            "field_type": "textarea",
+                            "name": "Summary Comments",
+                            "is_required": 0,
+                            "options": [],
+                            "value": "Emma has made significant progress in her role and shows potential for further development.",
+                            "allow_edit": 1
+                        }
+                    ]
+                }
+            ],
+            "employee_summary_comments": [
+                {
+                    "field_id": 1,
+                    "field_type": "textarea",
+                    "name": "Summary Comments",
+                    "is_required": 0,
+                    "options": [],
+                    "value": "I am dedicated to improving my skills and knowledge to better serve our customers.",
+                    "allow_edit": 0
+                }
+            ]
+        },
+        "signature": [
+            {
+                "type": "Employee",
+                "type_orig": "employee",
+                "signer": {
+                    "first_name": "Emma",
+                    "last_name": "Taylor",
+                    "middle_name": ""
+                },
+                "signer_note": "",
+                "sign_date": "2023-03-15 18:29:36",
+                "approved_by": "Taylor, Emma<br/>Employee"
+            },
+            {
+                "type": "Appraiser",
+                "type_orig": "appraiser",
+                "signer": {
+                    "first_name": "Michael",
+                    "last_name": "Johnson",
+                    "middle_name": ""
+                },
+                "signer_note": "",
+                "sign_date": "2023-03-15 16:52:17",
+                "approved_by": "Johnson, Michael<br/>Appraiser"
+            },
+            {
+                "type": "Appraiser",
+                "type_orig": "appraiser",
+                "signer": {
+                    "first_name": "Laura",
+                    "last_name": "Brown",
+                    "middle_name": ""
+                },
+                "signer_note": "",
+                "sign_date": "2023-03-15 13:06:04",
+                "approved_by": "Brown, Laura<br/>Appraiser"
+            }
+        ],
+        "config": {
+            "appraiser_id": 351,
+            "appraisal_id": 63,
+            "subject_access": 0,
+            "merge_time": "2023-02-28 16:35:20",
+            "hide_weights": 0,
+            "hide_overall_weights": 0,
+            "goal_set_progress": 1,
+            "goal_display_as_percentage": 1,
+            "allow_multiple_comments": 1,
+            "hide_sliding_scale": 0,
+            "hide_scores": 1,
+            "hide_employee_score": 0,
+            "hide_last_score": 0,
+            "employee_comments_required": 0,
+            "appraiser_comments_required": 0,
+            "performance_levels": "4",
+            "na_employee": "",
+            "na_appraiser": "1",
+            "esignature": "1",
+            "esig_employee": "1",
+            "esig_appraiser": "1",
+            "allow_appraiser_view": "",
+            "employee_ready_notification": "1",
+            "downline_features": "1",
+            "routing": "Auto-Route",
+            "routing_force_appraisal": "1",
+            "share_note": "",
+            "employee_documents": "",
+            "concurrent_appraisals": "",
+            "view_appraisal_history": "1",
+            "view_notes": "",
+            "view_forms": "",
+            "view_appraisals": "1",
+            "additional_documents": "",
+            "hide_core_value_section": "",
+            "hide_goal_section": "",
+            "hide_factor_section": "",
+            "lock_weight": "1",
+            "sf_require": "",
+            "sf_prohibit_override": "",
+            "as_require": "",
+            "as_prohibit_override": "",
+            "rate_action_steps": "",
+            "allow_sub_factors": "",
+            "self_appraisal": "required",
+            "allow_scores_lower": "1",
+            "ack_appraisal": "By signing below, the Employee and Appraiser(s) acknowledge that this Performance Appraisal has been discussed. They each understand that this appraisal is not a contract, but an evaluation of performance and therefore does not affect the employee relationship. If the Employee disagrees with the contents of this appraisal, he/she may check the following box and attach an explanation of that disagreement.",
+            "show_signature_line": 1,
+            "only_self": 0,
+            "job_description_id": 13,
+            "routed": 0,
+            "routed_to_appraiser": 0,
+            "routed_to_upline": 0,
+            "has_been_routed": 1,
+            "routing_stopped": 0,
+            "has_been_completely_routed": 1,
+            "last_routing_bypassed": 0,
+            "routing_required_by_path": 0,
+            "sign_on_approval": 0,
+            "allow_editing_at_merge": 1,
+            "routing_locked": 1
+        },
+        "client_name": "Customer Service Solutions",
+        "is_merged": 1,
+        "complete_time": "2023-03-15 13:05:22",
+        "process_name": "Appraisal"
+    },
+    "warning": []
+}

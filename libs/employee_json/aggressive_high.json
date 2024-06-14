@@ -1,0 +1,463 @@
+{
+    "status": 1,
+    "data": {
+        "employee_info": {
+            "employee_id": "64",
+            "first_name": "Brian",
+            "last_name": "Clark",
+            "hire_date": "2015-08-15",
+            "position": "Senior Developer",
+            "department": "IT",
+            "division": "Tech Division",
+            "location": "San Francisco, CA",
+            "job_title": "Senior Developer",
+            "appraisers": [
+                {
+                    "first_name": "Charles",
+                    "last_name": "Dawson",
+                    "employee_id": "106",
+                    "mark_ready": "2023-02-28 16:20:15"
+                },
+                {
+                    "first_name": "Diana",
+                    "last_name": "Evans",
+                    "employee_id": "46",
+                    "mark_ready": "2023-02-28 16:30:13"
+                }
+            ],
+            "start_date": "2022-01-01",
+            "end_date": "2022-12-31"
+        },
+        "overview": {
+            "core_value": {
+                "label": "Service Promise",
+                "name": "core_value",
+                "weight": "33%",
+                "criterions": [
+                    {
+                        "type": "core_value",
+                        "name": "Excellence in Service",
+                        "weight": "100%"
+                    }
+                ]
+            },
+            "factor": {
+                "label": "Competency",
+                "name": "factor",
+                "weight": "33%",
+                "criterions": [
+                    {
+                        "type": "factor",
+                        "name": "Technical Expertise",
+                        "weight": "25%"
+                    },
+                    {
+                        "type": "factor",
+                        "name": "Problem Solving",
+                        "weight": "20%"
+                    },
+                    {
+                        "type": "factor",
+                        "name": "Innovation",
+                        "weight": "20%"
+                    },
+                    {
+                        "type": "factor",
+                        "name": "Team Leadership",
+                        "weight": "15%"
+                    },
+                    {
+                        "type": "factor",
+                        "name": "Communication",
+                        "weight": "10%"
+                    },
+                    {
+                        "type": "factor",
+                        "name": "Policy Compliance",
+                        "weight": "10%"
+                    }
+                ]
+            },
+            "goal": {
+                "label": "Goal",
+                "name": "goal",
+                "weight": "34%",
+                "criterions": [
+                    {
+                        "type": "goal",
+                        "name": "Project Delivery",
+                        "weight": "50%"
+                    },
+                    {
+                        "type": "goal",
+                        "name": "Client Satisfaction",
+                        "weight": "50%"
+                    }
+                ]
+            }
+        },
+        "criterions": {
+            "core_value": [
+                {
+                    "name": "Excellence in Service",
+                    "description": "Commitment to providing exceptional service to clients and colleagues.",
+                    "weight": "100%",
+                    "appraisers": [
+                        {
+                            "label": "Appraiser 1",
+                            "weight": 100,
+                            "rating": "High Performer",
+                            "score": 4
+                        },
+                        {
+                            "label": "Appraiser 2",
+                            "weight": 0,
+                            "rating": "High Performer",
+                            "score": "--"
+                        }
+                    ],
+                    "employee": {
+                        "label": "Employee",
+                        "weight": "--",
+                        "rating": "High Performer",
+                        "score": 4
+                    },
+                    "total": {
+                        "label": "Total",
+                        "value": "High Performer",
+                        "selected_number": 4
+                    },
+                    "comments": [
+                        {
+                            "label": "Appraiser 1",
+                            "user_type": "appraiser",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-28",
+                                    "comment": "Brian consistently delivers exceptional service, pushing his team to excel and meet high standards."
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Appraiser 2 ",
+                            "user_type": "appraiser",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-27",
+                                    "comment": "Brian's aggressive pursuit of excellence has driven significant improvements in our service delivery."
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Employee",
+                            "user_type": "employee",
+                            "all_comment": [
+                                {
+                                    "date": "2023-01-28",
+                                    "comment": "I strive to push the limits of service excellence and ensure my team does the same."
+                                }
+                            ]
+                        }
+                    ],
+                    "ratings": [
+                        {
+                            "name": "High Performer",
+                            "description": "Exceeds expectations in providing exceptional service and motivating the team.",
+                            "number": 4
+                        },
+                        {
+                            "name": "Valued Performer",
+                            "description": "Consistently provides high-quality service and supports team efforts.",
+                            "number": 3
+                        },
+                        {
+                            "name": "Contributor",
+                            "description": "Provides adequate service and meets basic expectations.",
+                            "number": 2
+                        },
+                        {
+                            "name": "Needs Improvement",
+                            "description": "Fails to meet service expectations and requires improvement.",
+                            "number": 1
+                        }
+                    ]
+                }
+            ],
+            "factor": [
+                {
+                    "name": "Technical Expertise",
+                    "description": "Demonstrates advanced technical skills and knowledge required for the role.",
+                    "weight": "25%",
+                    "appraisers": [
+                        {
+                            "label": "Appraiser 1",
+                            "weight": 100,
+                            "rating": "High Performer",
+                            "score": 4
+                        },
+                        {
+                            "label": "Appraiser 2",
+                            "weight": 0,
+                            "rating": "High Performer",
+                            "score": "--"
+                        }
+                    ],
+                    "employee": {
+                        "label": "Employee",
+                        "weight": "--",
+                        "rating": "High Performer",
+                        "score": 4
+                    },
+                    "comments": [
+                        {
+                            "label": "Appraiser 1",
+                            "user_type": "appraiser",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-28",
+                                    "comment": "Brian's technical skills are top-notch, consistently exceeding expectations."
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Appraiser 2 ",
+                            "user_type": "appraiser",
+                            "all_comment": [
+                                {
+                                    "date": "2023-02-27",
+                                    "comment": "Brian's aggressive approach ensures he stays ahead in technical expertise."
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Employee",
+                            "user_type": "employee",
+                            "all_comment": [
+                                {
+                                    "date": "2023-01-28",
+                                    "comment": "I take pride in my technical skills and continuously push myself to stay ahead."
+                                }
+                            ]
+                        }
+                    ],
+                    "ratings": [
+                        {
+                            "name": "High Performer",
+                            "description": "Consistently demonstrates advanced technical skills and exceeds expectations.",
+                            "number": 4
+                        },
+                        {
+                            "name": "Valued Performer",
+                            "description": "Demonstrates solid technical skills and meets expectations.",
+                            "number": 3
+                        },
+                        {
+                            "name": "Contributor",
+                            "description": "Possesses sufficient technical skills to meet job requirements.",
+                            "number": 2
+                        },
+                        {
+                            "name": "Needs Improvement",
+                            "description": "Lacks the necessary technical skills for the role.",
+                            "number": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "overall_score": {
+            "criterion_types": [
+                {
+                    "id": 3,
+                    "name": "Service Promise",
+                    "type": "core_value",
+                    "total": 4,
+                    "weight": "33",
+                    "score": 1.32,
+                    "total_label": "High Performer"
+                },
+                {
+                    "id": 1,
+                    "name": "Competency",
+                    "type": "factor",
+                    "total": 4,
+                    "weight": "33",
+                    "score": 1.32,
+                    "total_label": "High Performer"
+                },
+                {
+                    "id": 2,
+                    "name": "Goal",
+                    "type": "goal",
+                    "total": 4,
+                    "weight": "34",
+                    "score": 1.36,
+                    "total_label": "High Performer"
+                }
+            ],
+            "rating_label": "High Performer",
+            "rating": 4.0
+        },
+        "summary_comments": {
+            "appraiser_summary_comments": [
+                {
+                    "employee": {
+                        "first_name": "Charles",
+                        "last_name": "Dawson",
+                        "middle_name": "",
+                        "id": "106"
+                    },
+                    "type": "appraiser",
+                    "comments": [
+                        {
+                            "field_id": 1,
+                            "field_type": "textarea",
+                            "name": "Summary Comments",
+                            "is_required": 0,
+                            "options": [],
+                            "value": "Brian has shown exceptional performance throughout the year, consistently exceeding expectations and pushing his team to achieve higher standards.",
+                            "allow_edit": 1
+                        }
+                    ]
+                },
+                {
+                    "employee": {
+                        "first_name": "Diana",
+                        "last_name": "Evans",
+                        "middle_name": "",
+                        "id": "46"
+                    },
+                    "type": "appraiser",
+                    "comments": [
+                        {
+                            "field_id": 1,
+                            "field_type": "textarea",
+                            "name": "Summary Comments",
+                            "is_required": 0,
+                            "options": [],
+                            "value": "Brian's aggressive pursuit of excellence has significantly contributed to our success. He is a high performer in every aspect.",
+                            "allow_edit": 1
+                        }
+                    ]
+                }
+            ],
+            "employee_summary_comments": [
+                {
+                    "field_id": 1,
+                    "field_type": "textarea",
+                    "name": "Summary Comments",
+                    "is_required": 0,
+                    "options": [],
+                    "value": "I am committed to driving excellence in my work and my team's performance.",
+                    "allow_edit": 0
+                }
+            ]
+        },
+        "signature": [
+            {
+                "type": "Employee",
+                "type_orig": "employee",
+                "signer": {
+                    "first_name": "Brian",
+                    "last_name": "Clark",
+                    "middle_name": ""
+                },
+                "signer_note": "",
+                "sign_date": "2023-03-15 18:29:36",
+                "approved_by": "Clark, Brian<br/>Employee"
+            },
+            {
+                "type": "Appraiser",
+                "type_orig": "appraiser",
+                "signer": {
+                    "first_name": "Charles",
+                    "last_name": "Dawson",
+                    "middle_name": ""
+                },
+                "signer_note": "",
+                "sign_date": "2023-03-15 16:52:17",
+                "approved_by": "Dawson, Charles<br/>Appraiser"
+            },
+            {
+                "type": "Appraiser",
+                "type_orig": "appraiser",
+                "signer": {
+                    "first_name": "Diana",
+                    "last_name": "Evans",
+                    "middle_name": ""
+                },
+                "signer_note": "",
+                "sign_date": "2023-03-15 13:06:04",
+                "approved_by": "Evans, Diana<br/>Appraiser"
+            }
+        ],
+        "config": {
+            "appraiser_id": 348,
+            "appraisal_id": 60,
+            "subject_access": 0,
+            "merge_time": "2023-02-28 16:30:20",
+            "hide_weights": 0,
+            "hide_overall_weights": 0,
+            "goal_set_progress": 1,
+            "goal_display_as_percentage": 1,
+            "allow_multiple_comments": 1,
+            "hide_sliding_scale": 0,
+            "hide_scores": 1,
+            "hide_employee_score": 0,
+            "hide_last_score": 0,
+            "employee_comments_required": 0,
+            "appraiser_comments_required": 0,
+            "performance_levels": "4",
+            "na_employee": "",
+            "na_appraiser": "1",
+            "esignature": "1",
+            "esig_employee": "1",
+            "esig_appraiser": "1",
+            "allow_appraiser_view": "",
+            "employee_ready_notification": "1",
+            "downline_features": "1",
+            "routing": "Auto-Route",
+            "routing_force_appraisal": "1",
+            "share_note": "",
+            "employee_documents": "",
+            "concurrent_appraisals": "",
+            "view_appraisal_history": "1",
+            "view_notes": "",
+            "view_forms": "",
+            "view_appraisals": "1",
+            "additional_documents": "",
+            "hide_core_value_section": "",
+            "hide_goal_section": "",
+            "hide_factor_section": "",
+            "lock_weight": "1",
+            "sf_require": "",
+            "sf_prohibit_override": "",
+            "as_require": "",
+            "as_prohibit_override": "",
+            "rate_action_steps": "",
+            "allow_sub_factors": "",
+            "self_appraisal": "required",
+            "allow_scores_lower": "1",
+            "ack_appraisal": "By signing below, the Employee and Appraiser(s) acknowledge that this Performance Appraisal has been discussed. They each understand that this appraisal is not a contract, but an evaluation of performance and therefore does not affect the employee relationship. If the Employee disagrees with the contents of this appraisal, he/she may check the following box and attach an explanation of that disagreement.",
+            "show_signature_line": 1,
+            "only_self": 0,
+            "job_description_id": 10,
+            "routed": 0,
+            "routed_to_appraiser": 0,
+            "routed_to_upline": 0,
+            "has_been_routed": 1,
+            "routing_stopped": 0,
+            "has_been_completely_routed": 1,
+            "last_routing_bypassed": 0,
+            "routing_required_by_path": 0,
+            "sign_on_approval": 0,
+            "allow_editing_at_merge": 1,
+            "routing_locked": 1
+        },
+        "client_name": "Tech Solutions Inc.",
+        "is_merged": 1,
+        "complete_time": "2023-03-15 13:05:22",
+        "process_name": "Appraisal"
+    },
+    "warning": []
+}

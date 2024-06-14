@@ -1,0 +1,1225 @@
+{
+    "status": 1,
+    "data": {
+      "employee_info": {
+        "employee_id": "63",
+        "first_name": "Alex",
+        "last_name": "Williams",
+        "behavior": "Aggressive",
+        "rating": "Low",
+        "hire_date": "2013-04-01",
+        "position": "Branch Supervisor",
+        "department": "SC Operations",
+        "division": "Sparks Crossing",
+        "location": "Reno, NV",
+        "job_title": "Branch Supervisor",
+        "appraisers": [
+          {
+            "first_name": "Aeriela",
+            "last_name": "Schneider",
+            "employee_id": "105",
+            "mark_ready": "2023-02-28 16:18:15"
+          },
+          {
+            "first_name": "Addi",
+            "last_name": "Bond",
+            "employee_id": "45",
+            "mark_ready": "2023-02-28 16:27:13"
+          }
+        ],
+        "start_date": "2022-01-01",
+        "end_date": "2022-12-31"
+      },
+      "overview": {
+        "core_value": {
+          "label": "Service Promise",
+          "name": "core_value",
+          "weight": "33%",
+          "criterions": [
+            {
+              "type": "core_value",
+              "name": "Great Basin Employee Promise",
+              "weight": "100%"
+            }
+          ]
+        },
+        "factor": {
+          "label": "Competency",
+          "name": "factor",
+          "weight": "33%",
+          "criterions": [
+            {
+              "type": "factor",
+              "name": "Job Knowledge",
+              "weight": "20%"
+            },
+            {
+              "type": "factor",
+              "name": "Member Focus",
+              "weight": "15%"
+            },
+            {
+              "type": "factor",
+              "name": "Analytical Skills",
+              "weight": "15%"
+            },
+            {
+              "type": "factor",
+              "name": "Teamwork & Cooperation",
+              "weight": "15%"
+            },
+            {
+              "type": "factor",
+              "name": "Management Effectiveness",
+              "weight": "15%"
+            },
+            {
+              "type": "factor",
+              "name": "Planning",
+              "weight": "10%"
+            },
+            {
+              "type": "factor",
+              "name": "Policy Compliance",
+              "weight": "10%"
+            }
+          ]
+        },
+        "goal": {
+          "label": "Goal",
+          "name": "goal",
+          "weight": "34%",
+          "criterions": [
+            {
+              "type": "goal",
+              "name": "Know B4/BAI",
+              "weight": "34%"
+            },
+            {
+              "type": "goal",
+              "name": "Branch and Checking Goal",
+              "weight": "33%"
+            },
+            {
+              "type": "goal",
+              "name": "Card Services/Disputes",
+              "weight": "33%"
+            }
+          ]
+        }
+      },
+      "criterions": {
+        "core_value": [
+          {
+            "name": "Great Basin Employee Promise",
+            "description": "Great Basin Employees promise to...\r\n\r\n-  Step in someone else's shoes.  Be aware of their feelings and understand their perspective.\r\n-  Act with integrity and professionalism.\r\n- Be knowledgeable, accurate and efficient.\r\n-  Take ownership.  Find a solution.  Follow through.\r\n-  Do more than expected.  Impress someone.\r\n-  Show appreciation.",
+            "weight": "100%",
+            "appraisers": [
+              {
+                "label": "Appraiser 1",
+                "weight": 100,
+                "rating": "Unreliable",
+                "score": 1
+              },
+              {
+                "label": "Appraiser 2",
+                "weight": 0,
+                "rating": "Unreliable",
+                "score": "--"
+              }
+            ],
+            "employee": {
+              "label": "Employee",
+              "weight": "--",
+              "rating": "Unreliable",
+              "score": 1
+            },
+            "total": {
+              "label": "Total",
+              "value": "Unreliable",
+              "selected_number": 1
+            },
+            "comments": [
+              {
+                "label": "Appraiser 1",
+                "user_type": "appraiser",
+                "all_comment": [
+                  {
+                    "date": "2023-02-27",
+                    "comment": "Alex, your approach to service is unacceptable. Your behavior often lacks professionalism and your interactions with both team members and members have been problematic."
+                  }
+                ]
+              },
+              {
+                "label": "Appraiser 2",
+                "user_type": "appraiser",
+                "all_comment": [
+                  
+                ]
+              },
+              {
+                "label": "Employee",
+                "user_type": "employee",
+                "all_comment": [
+                  {
+                    "date": "2023-01-28",
+                    "comment": "I disagree with this assessment. My commitment to service is evident and I believe the feedback here is biased."
+                  }
+                ]
+              }
+            ],
+            "ratings": [
+              {
+                "name": "Outstanding",
+                "description": "Demonstrates exceptional commitment to the organization's mission. Plays a leading role in exemplifying and spreading the values and goals of the organization. Fully understands the connection between job responsibilities and organizational objectives.",
+                "number": 4
+              },
+              {
+                "name": "Proficient",
+                "description": "Shows strong commitment to the organization's mission. Supports and models the values and goals of the organization. Understands how job responsibilities contribute to organizational objectives.",
+                "number": 3
+              },
+              {
+                "name": "Inconsistent",
+                "description": "Partially understands the organization's mission. Inconsistent in making the connection between job responsibilities and organizational objectives.",
+                "number": 2
+              },
+              {
+                "name": "Unreliable",
+                "description": "Fails to connect job duties with organizational goals and objectives. Lacks understanding of the organization's mission.",
+                "number": 1
+              }
+            ]
+          }
+        ],
+        "factor": [
+          {
+            "name": "Job Knowledge",
+            "description": "The depth and breadth of know-how to perform essential duties and functions of the job.  The level of compliance with degree, certification, and training requirements.  Understanding of how individual job performance furthers organizational objectives.  Willingness to update and expand skills, knowledge, and training.",
+            "weight": "20%",
+            "appraisers": [
+              {
+                "label": "Appraiser 1",
+                "weight": 100,
+                "rating": "Unreliable",
+                "score": 1
+              },
+              {
+                "label": "Appraiser 2",
+                "weight": 0,
+                "rating": "Unreliable",
+                "score": "--"
+              }
+            ],
+            "employee": {
+              "label": "Employee",
+              "weight": "--",
+              "rating": "Unreliable",
+              "score": 1
+            },
+            "comments": [
+              {
+                "label": "Appraiser 1",
+                "user_type": "appraiser",
+                "all_comment": [
+                  {
+                    "date": "2023-02-27",
+                    "comment": "Alex, your job knowledge is far below expectations. You frequently fail to meet the basic requirements and your reluctance to expand your skills is evident."
+                  }
+                ]
+              },
+              {
+                "label": "Appraiser 2",
+                "user_type": "appraiser",
+                "all_comment": [
+                  
+                ]
+              },
+              {
+                "label": "Employee",
+                "user_type": "employee",
+                "all_comment": [
+                  {
+                    "date": "2023-01-28",
+                    "comment": "This is an unfair evaluation. I possess adequate job knowledge and continually strive to improve."
+                  }
+                ]
+              }
+            ],
+            "ratings": [
+              {
+                "name": "Outstanding",
+                "description": "Demonstrates exceptional commitment to the organization's mission. Plays a leading role in exemplifying and spreading the values and goals of the organization. Fully understands the connection between job responsibilities and organizational objectives.",
+                "number": 4
+              },
+              {
+                "name": "Proficient",
+                "description": "Shows strong commitment to the organization's mission. Supports and models the values and goals of the organization. Understands how job responsibilities contribute to organizational objectives.",
+                "number": 3
+              },
+              {
+                "name": "Inconsistent",
+                "description": "Partially understands the organization's mission. Inconsistent in making the connection between job responsibilities and organizational objectives.",
+                "number": 2
+              },
+              {
+                "name": "Unreliable",
+                "description": "Fails to connect job duties with organizational goals and objectives. Lacks understanding of the organization's mission.",
+                "number": 1
+              }
+            ],
+            "total": {
+              "label": "Total",
+              "value": "Unreliable",
+              "selected_number": 1
+            }
+          },
+          {
+            "name": "Member Focus",
+            "description": "The degree to which member service is demonstrated in the day-to-day business environment.  The level of support for co-workers as well as outside members, clients, etc.",
+            "weight": "15%",
+            "appraisers": [
+              {
+                "label": "Appraiser 1",
+                "weight": 100,
+                "rating": "Unreliable",
+                "score": 1
+              },
+              {
+                "label": "Appraiser 2",
+                "weight": 0,
+                "rating": "Unreliable",
+                "score": "--"
+              }
+            ],
+            "employee": {
+              "label": "Employee",
+              "weight": "--",
+              "rating": "Unreliable",
+              "score": 1
+            },
+            "comments": [
+              {
+                "label": "Appraiser 1",
+                "user_type": "appraiser",
+                "all_comment": [
+                  {
+                    "date": "2023-02-27",
+                    "comment": "Your interactions with members are often negative and you do not exhibit a supportive attitude towards your colleagues."
+                  }
+                ]
+              },
+              {
+                "label": "Appraiser 2",
+                "user_type": "appraiser",
+                "all_comment": [
+                  
+                ]
+              },
+              {
+                "label": "Employee",
+                "user_type": "employee",
+                "all_comment": [
+                  {
+                    "date": "2023-01-28",
+                    "comment": "I strongly disagree with this. I always put members first and support my team."
+                  }
+                ]
+              }
+            ],
+            "ratings": [
+              {
+                "name": "Outstanding",
+                "description": "Demonstrates exceptional commitment to the organization's mission. Plays a leading role in exemplifying and spreading the values and goals of the organization. Fully understands the connection between job responsibilities and organizational objectives.",
+                "number": 4
+              },
+              {
+                "name": "Proficient",
+                "description": "Shows strong commitment to the organization's mission. Supports and models the values and goals of the organization. Understands how job responsibilities contribute to organizational objectives.",
+                "number": 3
+              },
+              {
+                "name": "Inconsistent",
+                "description": "Partially understands the organization's mission. Inconsistent in making the connection between job responsibilities and organizational objectives.",
+                "number": 2
+              },
+              {
+                "name": "Unreliable",
+                "description": "Fails to connect job duties with organizational goals and objectives. Lacks understanding of the organization's mission.",
+                "number": 1
+              }
+            ],
+            "total": {
+              "label": "Total",
+              "value": "Unreliable",
+              "selected_number": 1
+            }
+          },
+          {
+            "name": "Analytical Skills",
+            "description": "The ability to observe, evaluate, summarize, and apply meaningful data in the problem-solving process.  The level of logical reasoning necessary to connect required actions to desired outcomes.  The ability to forecast events based upon current situations.  Demonstrated skill in generating alternative solutions to problems.",
+            "weight": "15%",
+            "appraisers": [
+              {
+                "label": "Appraiser 1",
+                "weight": 100,
+                "rating": "Unreliable",
+                "score": 1
+              },
+              {
+                "label": "Appraiser 2",
+                "weight": 0,
+                "rating": "Unreliable",
+                "score": "--"
+              }
+            ],
+            "employee": {
+              "label": "Employee",
+              "weight": "--",
+              "rating": "Unreliable",
+              "score": 1
+            },
+            "comments": [
+              {
+                "label": "Appraiser 1",
+                "user_type": "appraiser",
+                "all_comment": [
+                  {
+                    "date": "2023-02-27",
+                    "comment": "You lack the ability to analyze situations effectively and your decisions often lead to negative outcomes."
+                  }
+                ]
+              },
+              {
+                "label": "Appraiser 2",
+                "user_type": "appraiser",
+                "all_comment": [
+                  
+                ]
+              },
+              {
+                "label": "Employee",
+                "user_type": "employee",
+                "all_comment": [
+                  {
+                    "date": "2023-01-28",
+                    "comment": "I feel that my analytical skills are more than adequate and I make sound decisions."
+                  }
+                ]
+              }
+            ],
+            "ratings": [
+              {
+                "name": "Outstanding",
+                "description": "Demonstrates exceptional commitment to the organization's mission. Plays a leading role in exemplifying and spreading the values and goals of the organization. Fully understands the connection between job responsibilities and organizational objectives.",
+                "number": 4
+              },
+              {
+                "name": "Proficient",
+                "description": "Shows strong commitment to the organization's mission. Supports and models the values and goals of the organization. Understands how job responsibilities contribute to organizational objectives.",
+                "number": 3
+              },
+              {
+                "name": "Inconsistent",
+                "description": "Partially understands the organization's mission. Inconsistent in making the connection between job responsibilities and organizational objectives.",
+                "number": 2
+              },
+              {
+                "name": "Unreliable",
+                "description": "Fails to connect job duties with organizational goals and objectives. Lacks understanding of the organization's mission.",
+                "number": 1
+              }
+            ],
+            "total": {
+              "label": "Total",
+              "value": "Unreliable",
+              "selected_number": 1
+            }
+          },
+          {
+            "name": "Teamwork & Cooperation",
+            "description": "The degree to which individuals promote a collaborative, cooperative, and productive working environment.  The level of demonstrated sensitivity, team building, support, and respect.  The degree of synergy promoted.",
+            "weight": "15%",
+            "appraisers": [
+              {
+                "label": "Appraiser 1",
+                "weight": 100,
+                "rating": "Unreliable",
+                "score": 1
+              },
+              {
+                "label": "Appraiser 2",
+                "weight": 0,
+                "rating": "Unreliable",
+                "score": "--"
+              }
+            ],
+            "employee": {
+              "label": "Employee",
+              "weight": "--",
+              "rating": "Unreliable",
+              "score": 1
+            },
+            "comments": [
+              {
+                "label": "Appraiser 1",
+                "user_type": "appraiser",
+                "all_comment": [
+                  {
+                    "date": "2023-02-27",
+                    "comment": "Your behavior disrupts team dynamics and you often fail to collaborate effectively."
+                  }
+                ]
+              },
+              {
+                "label": "Appraiser 2",
+                "user_type": "appraiser",
+                "all_comment": [
+                  
+                ]
+              },
+              {
+                "label": "Employee",
+                "user_type": "employee",
+                "all_comment": [
+                  {
+                    "date": "2023-01-28",
+                    "comment": "I believe I contribute positively to the team and foster a cooperative environment."
+                  }
+                ]
+              }
+            ],
+            "ratings": [
+              {
+                "name": "Outstanding",
+                "description": "Demonstrates exceptional commitment to the organization's mission. Plays a leading role in exemplifying and spreading the values and goals of the organization. Fully understands the connection between job responsibilities and organizational objectives.",
+                "number": 4
+              },
+              {
+                "name": "Proficient",
+                "description": "Shows strong commitment to the organization's mission. Supports and models the values and goals of the organization. Understands how job responsibilities contribute to organizational objectives.",
+                "number": 3
+              },
+              {
+                "name": "Inconsistent",
+                "description": "Partially understands the organization's mission. Inconsistent in making the connection between job responsibilities and organizational objectives.",
+                "number": 2
+              },
+              {
+                "name": "Unreliable",
+                "description": "Fails to connect job duties with organizational goals and objectives. Lacks understanding of the organization's mission.",
+                "number": 1
+              }
+            ],
+            "total": {
+              "label": "Total",
+              "value": "Unreliable",
+              "selected_number": 1
+            }
+          },
+          {
+            "name": "Management Effectiveness",
+            "description": "The overall ability to supervise and direct people and/or resources to meet department goals.  The level at which one is able to motivate people, plan and prioritize unit operations, respond to changing conditions, and manage costs effectively.",
+            "weight": "15%",
+            "appraisers": [
+              {
+                "label": "Appraiser 1",
+                "weight": 100,
+                "rating": "Unreliable",
+                "score": 1
+              },
+              {
+                "label": "Appraiser 2",
+                "weight": 0,
+                "rating": "Unreliable",
+                "score": "--"
+              }
+            ],
+            "employee": {
+              "label": "Employee",
+              "weight": "--",
+              "rating": "Unreliable",
+              "score": 1
+            },
+            "comments": [
+              {
+                "label": "Appraiser 1",
+                "user_type": "appraiser",
+                "all_comment": [
+                  {
+                    "date": "2023-02-27",
+                    "comment": "You lack the ability to manage your team effectively, resulting in frequent disruptions and poor performance."
+                  }
+                ]
+              },
+              {
+                "label": "Appraiser 2",
+                "user_type": "appraiser",
+                "all_comment": [
+                  
+                ]
+              },
+              {
+                "label": "Employee",
+                "user_type": "employee",
+                "all_comment": [
+                  {
+                    "date": "2023-01-28",
+                    "comment": "I believe I am an effective manager who motivates my team well."
+                  }
+                ]
+              }
+            ],
+            "ratings": [
+              {
+                "name": "Outstanding",
+                "description": "Demonstrates exceptional commitment to the organization's mission. Plays a leading role in exemplifying and spreading the values and goals of the organization. Fully understands the connection between job responsibilities and organizational objectives.",
+                "number": 4
+              },
+              {
+                "name": "Proficient",
+                "description": "Shows strong commitment to the organization's mission. Supports and models the values and goals of the organization. Understands how job responsibilities contribute to organizational objectives.",
+                "number": 3
+              },
+              {
+                "name": "Inconsistent",
+                "description": "Partially understands the organization's mission. Inconsistent in making the connection between job responsibilities and organizational objectives.",
+                "number": 2
+              },
+              {
+                "name": "Unreliable",
+                "description": "Fails to connect job duties with organizational goals and objectives. Lacks understanding of the organization's mission.",
+                "number": 1
+              }
+            ],
+            "total": {
+              "label": "Total",
+              "value": "Unreliable",
+              "selected_number": 1
+            }
+          },
+          {
+            "name": "Planning",
+            "description": "The degree to which the incumbent demonstrates skills in preparing to meet the short and long-term goals and objectives of the organization.  Preparedness, foresight, and strategic vision are reflected in this attribute.",
+            "weight": "10%",
+            "appraisers": [
+              {
+                "label": "Appraiser 1",
+                "weight": 100,
+                "rating": "Unreliable",
+                "score": 1
+              },
+              {
+                "label": "Appraiser 2",
+                "weight": 0,
+                "rating": "Unreliable",
+                "score": "--"
+              }
+            ],
+            "employee": {
+              "label": "Employee",
+              "weight": "--",
+              "rating": "Unreliable",
+              "score": 1
+            },
+            "comments": [
+              {
+                "label": "Appraiser 1",
+                "user_type": "appraiser",
+                "all_comment": [
+                  {
+                    "date": "2023-02-27",
+                    "comment": "Your planning is inconsistent and often lacks foresight, leading to frequent issues and missed goals."
+                  }
+                ]
+              },
+              {
+                "label": "Appraiser 2",
+                "user_type": "appraiser",
+                "all_comment": [
+                  
+                ]
+              },
+              {
+                "label": "Employee",
+                "user_type": "employee",
+                "all_comment": [
+                  {
+                    "date": "2023-01-28",
+                    "comment": "I believe my planning skills are adequate and I ensure my team is prepared for both short and long-term goals."
+                  }
+                ]
+              }
+            ],
+            "ratings": [
+              {
+                "name": "Outstanding",
+                "description": "Demonstrates exceptional commitment to the organization's mission. Plays a leading role in exemplifying and spreading the values and goals of the organization. Fully understands the connection between job responsibilities and organizational objectives.",
+                "number": 4
+              },
+              {
+                "name": "Proficient",
+                "description": "Shows strong commitment to the organization's mission. Supports and models the values and goals of the organization. Understands how job responsibilities contribute to organizational objectives.",
+                "number": 3
+              },
+              {
+                "name": "Inconsistent",
+                "description": "Partially understands the organization's mission. Inconsistent in making the connection between job responsibilities and organizational objectives.",
+                "number": 2
+              },
+              {
+                "name": "Unreliable",
+                "description": "Fails to connect job duties with organizational goals and objectives. Lacks understanding of the organization's mission.",
+                "number": 1
+              }
+            ],
+            "total": {
+              "label": "Total",
+              "value": "Unreliable",
+              "selected_number": 1
+            }
+          },
+          {
+            "name": "Policy Compliance",
+            "description": "The degree to which the employee has a knowledge of and complies with organizational policies.",
+            "weight": "10%",
+            "appraisers": [
+              {
+                "label": "Appraiser 1",
+                "weight": 100,
+                "rating": "Unreliable",
+                "score": 1
+              },
+              {
+                "label": "Appraiser 2",
+                "weight": 0,
+                "rating": "Unreliable",
+                "score": "--"
+              }
+            ],
+            "employee": {
+              "label": "Employee",
+              "weight": "--",
+              "rating": "Unreliable",
+              "score": 1
+            },
+            "comments": [
+              {
+                "label": "Appraiser 1",
+                "user_type": "appraiser",
+                "all_comment": [
+                  {
+                    "date": "2023-02-27",
+                    "comment": "Your understanding and compliance with policies are inadequate, leading to frequent issues and non-compliance."
+                  }
+                ]
+              },
+              {
+                "label": "Appraiser 2",
+                "user_type": "appraiser",
+                "all_comment": [
+                  
+                ]
+              },
+              {
+                "label": "Employee",
+                "user_type": "employee",
+                "all_comment": [
+                  {
+                    "date": "2023-01-28",
+                    "comment": "I believe I comply with all policies and strive to understand any new ones promptly."
+                  }
+                ]
+              }
+            ],
+            "ratings": [
+              {
+                "name": "Outstanding",
+                "description": "Demonstrates exceptional commitment to the organization's mission. Plays a leading role in exemplifying and spreading the values and goals of the organization. Fully understands the connection between job responsibilities and organizational objectives.",
+                "number": 4
+              },
+              {
+                "name": "Proficient",
+                "description": "Shows strong commitment to the organization's mission. Supports and models the values and goals of the organization. Understands how job responsibilities contribute to organizational objectives.",
+                "number": 3
+              },
+              {
+                "name": "Inconsistent",
+                "description": "Partially understands the organization's mission. Inconsistent in making the connection between job responsibilities and organizational objectives.",
+                "number": 2
+              },
+              {
+                "name": "Unreliable",
+                "description": "Fails to connect job duties with organizational goals and objectives. Lacks understanding of the organization's mission.",
+                "number": 1
+              }
+            ],
+            "total": {
+              "label": "Total",
+              "value": "Unreliable",
+              "selected_number": 1
+            }
+          }
+        ],
+        "goal": [
+          {
+            "name": "Know B4/BAI",
+            "description": "Ensure you and your team complete all assigned training on time.",
+            "weight": "34%",
+            "appraisers": [
+              {
+                "label": "Appraiser 1",
+                "weight": 100,
+                "rating": "Unreliable",
+                "score": 1
+              },
+              {
+                "label": "Appraiser 2",
+                "weight": 0,
+                "rating": "Unreliable",
+                "score": "--"
+              }
+            ],
+            "employee": {
+              "label": "Employee",
+              "weight": "--",
+              "rating": "Unreliable",
+              "score": 1
+            },
+            "comments": [
+              {
+                "label": "Appraiser 1",
+                "user_type": "appraiser",
+                "all_comment": [
+                  {
+                    "date": "2023-02-27",
+                    "comment": "You failed to ensure all team members completed the assigned training on time."
+                  }
+                ]
+              },
+              {
+                "label": "Appraiser 2",
+                "user_type": "appraiser",
+                "all_comment": [
+                  
+                ]
+              },
+              {
+                "label": "Employee",
+                "user_type": "employee",
+                "all_comment": [
+                  {
+                    "date": "2023-01-28",
+                    "comment": "This feedback is unfair. I always ensure my team completes their training."
+                  }
+                ]
+              }
+            ],
+            "ratings": [
+              {
+                "name": "Outstanding",
+                "description": "Demonstrates exceptional commitment to the organization's mission. Plays a leading role in exemplifying and spreading the values and goals of the organization. Fully understands the connection between job responsibilities and organizational objectives.",
+                "number": 4
+              },
+              {
+                "name": "Proficient",
+                "description": "Shows strong commitment to the organization's mission. Supports and models the values and goals of the organization. Understands how job responsibilities contribute to organizational objectives.",
+                "number": 3
+              },
+              {
+                "name": "Inconsistent",
+                "description": "Partially understands the organization's mission. Inconsistent in making the connection between job responsibilities and organizational objectives.",
+                "number": 2
+              },
+              {
+                "name": "Unreliable",
+                "description": "Fails to connect job duties with organizational goals and objectives. Lacks understanding of the organization's mission.",
+                "number": 1
+              }
+            ],
+            "total": {
+              "label": "Total",
+              "value": "Unreliable",
+              "selected_number": 1
+            }
+          },
+          {
+            "name": "Branch and Checking Goal",
+            "description": "Meet or exceed monthly branch and checking goals.",
+            "weight": "33%",
+            "appraisers": [
+              {
+                "label": "Appraiser 1",
+                "weight": 100,
+                "rating": "Unreliable",
+                "score": 1
+              },
+              {
+                "label": "Appraiser 2",
+                "weight": 0,
+                "rating": "Unreliable",
+                "score": "--"
+              }
+            ],
+            "employee": {
+              "label": "Employee",
+              "weight": "--",
+              "rating": "Unreliable",
+              "score": 1
+            },
+            "comments": [
+              {
+                "label": "Appraiser 1",
+                "user_type": "appraiser",
+                "all_comment": [
+                  {
+                    "date": "2023-02-27",
+                    "comment": "Your branch consistently failed to meet the monthly goals."
+                  }
+                ]
+              },
+              {
+                "label": "Appraiser 2",
+                "user_type": "appraiser",
+                "all_comment": [
+                  
+                ]
+              },
+              {
+                "label": "Employee",
+                "user_type": "employee",
+                "all_comment": [
+                  {
+                    "date": "2023-01-28",
+                    "comment": "I disagree. Our branch often meets or exceeds goals."
+                  }
+                ]
+              }
+            ],
+            "ratings": [
+              {
+                "name": "Outstanding",
+                "description": "Demonstrates exceptional commitment to the organization's mission. Plays a leading role in exemplifying and spreading the values and goals of the organization. Fully understands the connection between job responsibilities and organizational objectives.",
+                "number": 4
+              },
+              {
+                "name": "Proficient",
+                "description": "Shows strong commitment to the organization's mission. Supports and models the values and goals of the organization. Understands how job responsibilities contribute to organizational objectives.",
+                "number": 3
+              },
+              {
+                "name": "Inconsistent",
+                "description": "Partially understands the organization's mission. Inconsistent in making the connection between job responsibilities and organizational objectives.",
+                "number": 2
+              },
+              {
+                "name": "Unreliable",
+                "description": "Fails to connect job duties with organizational goals and objectives. Lacks understanding of the organization's mission.",
+                "number": 1
+              }
+            ],
+            "total": {
+              "label": "Total",
+              "value": "Unreliable",
+              "selected_number": 1
+            }
+          },
+          {
+            "name": "Card Services/Disputes",
+            "description": "Create a plan to learn more in depth about card services and disputes.",
+            "weight": "33%",
+            "appraisers": [
+              {
+                "label": "Appraiser 1",
+                "weight": 100,
+                "rating": "Unreliable",
+                "score": 1
+              },
+              {
+                "label": "Appraiser 2",
+                "weight": 0,
+                "rating": "Unreliable",
+                "score": "--"
+              }
+            ],
+            "employee": {
+              "label": "Employee",
+              "weight": "--",
+              "rating": "Unreliable",
+              "score": 1
+            },
+            "comments": [
+              {
+                "label": "Appraiser 1",
+                "user_type": "appraiser",
+                "all_comment": [
+                  {
+                    "date": "2023-02-27",
+                    "comment": "You have not made significant progress in learning about card services and disputes."
+                  }
+                ]
+              },
+              {
+                "label": "Appraiser 2",
+                "user_type": "appraiser",
+                "all_comment": [
+                  
+                ]
+              },
+              {
+                "label": "Employee",
+                "user_type": "employee",
+                "all_comment": [
+                  {
+                    "date": "2023-01-28",
+                    "comment": "This is inaccurate. I have made substantial progress in understanding card services and disputes."
+                  }
+                ]
+              }
+            ],
+            "ratings": [
+              {
+                "name": "Outstanding",
+                "description": "Demonstrates exceptional commitment to the organization's mission. Plays a leading role in exemplifying and spreading the values and goals of the organization. Fully understands the connection between job responsibilities and organizational objectives.",
+                "number": 4
+              },
+              {
+                "name": "Proficient",
+                "description": "Shows strong commitment to the organization's mission. Supports and models the values and goals of the organization. Understands how job responsibilities contribute to organizational objectives.",
+                "number": 3
+              },
+              {
+                "name": "Inconsistent",
+                "description": "Partially understands the organization's mission. Inconsistent in making the connection between job responsibilities and organizational objectives.",
+                "number": 2
+              },
+              {
+                "name": "Unreliable",
+                "description": "Fails to connect job duties with organizational goals and objectives. Lacks understanding of the organization's mission.",
+                "number": 1
+              }
+            ],
+            "total": {
+              "label": "Total",
+              "value": "Unreliable",
+              "selected_number": 1
+            }
+          }
+        ]
+      },
+      "overall_score": {
+        "criterion_types": [
+          {
+            "id": 3,
+            "name": "Service Promise",
+            "type": "core_value",
+            "total": 3,
+            "weight": "33",
+            "score": 0.34,
+            "total_label": "Unreliable"
+          },
+          {
+            "id": 1,
+            "name": "Competency",
+            "type": "factor",
+            "total": 2.9,
+            "weight": "33",
+            "score": 0.20,
+            "total_label": "Unreliable"
+          },
+          {
+            "id": 2,
+            "name": "Goal",
+            "type": "goal",
+            "total": 3,
+            "weight": "34",
+            "score": 0.3200013600000002,
+            "total_label": "Unreliable"
+          }
+        ],
+        "rating_label": "Unreliable",
+        "rating": 0.97
+      },
+      "summary_comments": {
+        "appraiser_summary_comments": [
+          {
+            "employee": {
+              "first_name": "Alex",
+              "last_name": "Willams",
+              "middle_name": "",
+              "id": "103"
+            },
+            "type": "appraiser",
+            "comments": [
+              {
+                "field_id": 1,
+                "field_type": "textarea",
+                "name": "Summary Comments",
+                "is_required": 0,
+                "options": [
+                  
+                ],
+                "value": "",
+                "allow_edit": 1
+              }
+            ]
+          },
+          {
+            "employee": {
+              "first_name": "Addi",
+              "last_name": "Bond",
+              "middle_name": "",
+              "id": "45"
+            },
+            "type": "appraiser",
+            "comments": [
+              {
+                "field_id": 1,
+                "field_type": "textarea",
+                "name": "Summary Comments",
+                "is_required": 0,
+                "options": [
+                  
+                ],
+                "value": "",
+                "allow_edit": 1
+              }
+            ]
+          }
+        ],
+        "employee_summary_comments": [
+          {
+            "field_id": 1,
+            "field_type": "textarea",
+            "name": "Summary Comments",
+            "is_required": 0,
+            "options": [
+              
+            ],
+            "value": "",
+            "allow_edit": 0
+          }
+        ]
+      },
+      "signature": [
+        {
+          "type": "Employee",
+          "type_orig": "employee",
+          "signer": {
+            "first_name": "Alex",
+            "last_name": "Willams",
+            "middle_name": ""
+          },
+          "signer_note": "",
+          "sign_date": "2023-03-15 18:29:36",
+          "approved_by": "Willams, Alex<br/>Employee"
+        },
+        {
+          "type": "Appraiser",
+          "type_orig": "appraiser",
+          "signer": {
+            "first_name": "Aeriela",
+            "last_name": "Schneider",
+            "middle_name": ""
+          },
+          "signer_note": "",
+          "sign_date": "2023-03-15 16:52:17",
+          "approved_by": "Schneider, Aeriela<br/>Appraiser"
+        },
+        {
+          "type": "Appraiser",
+          "type_orig": "appraiser",
+          "signer": {
+            "first_name": "Addi",
+            "last_name": "Bond",
+            "middle_name": ""
+          },
+          "signer_note": "",
+          "sign_date": "2023-03-15 13:06:04",
+          "approved_by": "Bond, Addi<br/>Appraiser"
+        },
+        {
+          "type": "Upline",
+          "type_orig": "upline",
+          "signer": {
+            "first_name": "Abbie",
+            "last_name": "Martin",
+            "middle_name": ""
+          },
+          "signer_note": "",
+          "sign_date": "2023-03-16 13:10:00",
+          "approved_by": "Martin, Abbie<br/>Upline"
+        }
+      ],
+      "config": {
+        "appraiser_id": 347,
+        "appraisal_id": 59,
+        "subject_access": 0,
+        "merge_time": "2023-02-28 16:27:20",
+        "hide_weights": 0,
+        "hide_overall_weights": 0,
+        "goal_set_progress": 1,
+        "goal_display_as_percentage": 1,
+        "allow_multiple_comments": 1,
+        "hide_sliding_scale": 0,
+        "hide_scores": 1,
+        "hide_employee_score": 0,
+        "hide_last_score": 0,
+        "employee_comments_required": 0,
+        "appraiser_comments_required": 0,
+        "performance_levels": "4",
+        "na_employee": "",
+        "na_appraiser": "1",
+        "esignature": "1",
+        "esig_employee": "1",
+        "esig_appraiser": "1",
+        "allow_appraiser_view": "",
+        "employee_ready_notification": "1",
+        "downline_features": "1",
+        "routing": "Auto-Route",
+        "routing_force_appraisal": "1",
+        "share_note": "",
+        "employee_documents": "",
+        "concurrent_appraisals": "",
+        "view_appraisal_history": "1",
+        "view_notes": "",
+        "view_forms": "",
+        "view_appraisals": "1",
+        "additional_documents": "",
+        "hide_core_value_section": "",
+        "hide_goal_section": "",
+        "hide_factor_section": "",
+        "lock_weight": "1",
+        "sf_require": "",
+        "sf_prohibit_override": "",
+        "as_require": "",
+        "as_prohibit_override": "",
+        "rate_action_steps": "",
+        "allow_sub_factors": "",
+        "self_appraisal": "required",
+        "allow_scores_lower": "1",
+        "ack_appraisal": "By signing below, the Employee and Appraiser(s) acknowledge that this Performance Appraisal has been discussed. They each understand that this appraisal is not a contract, but an evaluation of performance and therefore does not affect the employee relationship. If the Employee disagrees with the contents of this appraisal, he/she may check the following box and attach an explanation of that disagreement.",
+        "show_signature_line": 1,
+        "only_self": 0,
+        "job_description_id": 9,
+        "routed": 0,
+        "routed_to_appraiser": 0,
+        "routed_to_upline": 0,
+        "has_been_routed": 1,
+        "routing_stopped": 0,
+        "has_been_completely_routed": 1,
+        "last_routing_bypassed": 0,
+        "routing_required_by_path": 0,
+        "sign_on_approval": 0,
+        "allow_editing_at_merge": 1,
+        "routing_locked": 1
+      },
+      "client_name": "Great Basin Federal Credit Union",
+      "is_merged": 1,
+      "complete_time": "2023-03-15 13:05:22",
+      "process_name": "Appraisal"
+    },
+    "warning": [
+      
+    ]
+  }
